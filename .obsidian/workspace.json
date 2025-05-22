@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/chapter_004/chapter_004_text.md",
+                "file": "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/chapter_003/chapter_003_text.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "chapter_004_text"
+              "title": "chapter_003_text"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/chapter_004/chapter_004_text.md",
+                "file": "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/chapter_003/chapter_003_text.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for chapter_004_text"
+              "title": "Backlinks for chapter_003_text"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/chapter_004/chapter_004_text.md",
+                "file": "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/chapter_003/chapter_003_text.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from chapter_004_text"
+              "title": "Outgoing links from chapter_003_text"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/chapter_004/chapter_004_text.md",
+                "file": "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/chapter_003/chapter_003_text.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of chapter_004_text"
+              "title": "Outline of chapter_003_text"
             }
           }
         ]
@@ -170,8 +170,8 @@
   },
   "active": "549bda6cb8c66425",
   "lastOpenFiles": [
-    "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md",
     "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/chapter_004/chapter_004_text.md",
+    "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md",
     "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/chapter_003/chapter_003_text.md",
     "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/chapter_001/chapter_001_text.md",
     "core/personas/Arachne_2_0_Persona_Gem_Optimized.md",

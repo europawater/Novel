@@ -58,13 +58,22 @@
 1.  **매티스 페르소나 Ver. 3.3 적용**:
     *   매티스 페르소나 프롬프트 Ver. 3.3의 지침에 따라 모든 작업(분석, 제안, 집필)을 수행.
 2.  YONGMAEK01 제7화 초고 집필
-3.  "내가 먹물로 새기는 전설" 5화 이후 스토리 집필 시작 (또는 세부 플롯 구상)
+3.  **"재벌 3세는 용맥술사" (YONGMAEK01) 프로젝트 문체 및 서사 구성 개선**:
+    *   작가님 피드백을 바탕으로 YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 방향을 명확히 하고, 매티스 페르소나 Ver. 3.3의 핵심 원칙을 적용하여 향후 집필에 반영.
+4.  **매티스 페르소나 Ver. 3.3 아카이빙 및 적용**:
+    *   매티스 페르소나 프롬프트 Ver. 3.3의 전체 내용을 Writing Memory에 체계적으로 아카이빙하여 루아(RAG 시스템 백업 관리자)가 참조할 수 있도록 함.
+    *   매티스 페르소나 프롬프트 Ver. 3.3의 지침에 따라 모든 작업(분석, 제안, 집필)을 수행.
+5.  **"내가 먹물로 새기는 전설" (LEGEND01) 원고 관리 체계 안정화:**
+    *   `published` 폴더 최종 생성 (필요시).
+    *   기존 `novel_text.md` (1-4화) 처리 방안 1부 완결 시점에 작가와 논의 후 확정 (예: `published/LEGEND01_Arc_01_검은먹물의각성_final.md`로 통합).
+6.  "내가 먹물로 새기는 전설" 5화 이후 스토리 집필 시작 (또는 세부 플롯 구상)
+    *   작가로부터 추가 설정 전달받기 (진행 중)
     *   전달받은 설정 반영하여 5화 초고([`novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/chapters/LEGEND01_chapter_005_draft.md)) 수정 및 완성
     *   이후 챕터 초고는 `chapters` 폴더에 개별 파일로 저장
-3.  [`plot_arc_overview.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/plot_arc_overview.md)와 [`worldbuilding_strategy.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/worldbuilding_strategy.md)를 참고하여 각 부(Arc)별 상세 플롯, 캐릭터 설정, 세계관 디테일 구체화 (필요시 각 Arc별 하위 폴더 및 문서 생성)
-4.  새로운 등장인물 및 세력 등장에 따른 Writing Memory 지속적 업데이트
-5.  필요에 따라 작가, 편집자, 심사원, 독자 파일 생성 및 업데이트 (모집 모드)
-6.  장기적인 플롯 및 세계관 확장 계획 구체화
+7.  [`plot_arc_overview.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/plot_arc_overview.md)와 [`worldbuilding_strategy.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/worldbuilding_strategy.md)를 참고하여 각 부(Arc)별 상세 플롯, 캐릭터 설정, 세계관 디테일 구체화 (필요시 각 Arc별 하위 폴더 및 문서 생성)
+8.  새로운 등장인물 및 세력 등장에 따른 Writing Memory 지속적 업데이트
+9.  필요에 따라 작가, 편집자, 심사원, 독자 파일 생성 및 업데이트 (모집 모드)
+10. 장기적인 플롯 및 세계관 확장 계획 구체화
 
 ## 현재 상황
 

@@ -15,6 +15,8 @@
 - **신규 원고 관리 체계 도입 (LEGEND01 프로젝트)**:
     - 각 화별 초고는 `novels/LEGEND01_내가 먹물로 새기는 전설/chapters/` 폴더에 `*_draft.md` 형식으로 저장.
     - 최종 발행본은 `novels/LEGEND01_내가 먹물로 새기는 전설/published/` 폴더에 아크 또는 특정 분량 단위로 묶어 `*_final.md` 또는 `*_volume_XX.md` 형식으로 저장 예정.
+- **"재벌 3세는 용맥술사" (YONGMAEK01) 프로젝트 문체 및 서사 구성 피드백 반영 및 매티스 페르소나 Ver. 3.3 아카이빙**:
+    - 작가님 피드백을 바탕으로 YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 방향을 명확히 하고, 매티스 페르소나 Ver. 3.3의 전체 내용을 Writing Memory에 체계적으로 아카이빙하여 루아(RAG 시스템 백업 관리자)가 참조할 수 있도록 합니다.
 - **"내가 먹물로 새기는 전설" 5화 이후 스토리 집필 준비**:
     - 매티스 페르소나 Ver. 3.3의 지침에 따라 다음 챕터 집필을 위한 준비를 시작합니다.
 
@@ -74,17 +76,24 @@
 - **현재 세션의 주요 작업 (STATUS: PENDING)**: 홍교 AI 페르소나 파일([`core/personas/Honggyo_Editor_AI_v1.0.md`](core/personas/Honggyo_Editor_AI_v1.0.md))을 읽고, 그 역할 정의, 주요 책임, 핵심 운영 원칙, 작업 프로세스에 대해 상세히 분석하여 보고한다. (필요시 업데이트)
 
 1.  YONGMAEK01 제7화 초고 집필 또는 세부 플롯 구상
-
-1.  **"내가 먹물로 새기는 전설" (LEGEND01) 원고 관리 체계 안정화**:
+2.  **"내가 먹물로 새기는 전설" (LEGEND01) 원고 관리 체계 안정화**:
     *   `published` 폴더 생성 (필요시).
     *   기존 `novel_text.md` (1-4화) 처리 방안 1부 완결 시점에 작가와 논의 후 확정.
-2.  이후 챕터 집필 시 [`templates/TPL_Chapter_Draft_Universal.md`](templates/TPL_Chapter_Draft_Universal.md) 템플릿 지속 활용 및 `chapters` 폴더에 초고 저장
-3.  [`progress.md`](core/basic/progress.md) 파일에 현재 상태 반영
+3.  이후 챕터 집필 시 [`templates/TPL_Chapter_Draft_Universal.md`](templates/TPL_Chapter_Draft_Universal.md) 템플릿 지속 활용 및 `chapters` 폴더에 초고 저장
+4.  작가로부터 "내가 먹물로 새기는 전설" 관련 추가 설정 전달받기
+5.  전달받은 설정을 Writing Memory의 해당 파일들([`plot_arc_overview.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/plot_arc_overview.md), [`worldbuilding_strategy.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/worldbuilding_strategy.md), [`character.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/character.md), [`world.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/world.md) 등)에 반영
+6.  추가 설정을 반영하여 "내가 먹물로 새기는 전설" 5화 초고([`novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/chapters/LEGEND01_chapter_005_draft.md)) 수정 및 완성
+7.  이후 챕터 집필 시 [`templates/TPL_Chapter_Draft_Universal.md`](templates/TPL_Chapter_Draft_Universal.md) 템플릿 지속 활용 및 `chapters` 폴더에 초고 저장
+8.  [`progress.md`](core/basic/progress.md) 파일에 현재 상태 반영
 
 ## 적극적인 결정 및 고려 사항
 
-- **매티스 페르소나 Ver. 3.3의 핵심 원칙 적용**:
-    - [`core/personas/Mattis_System_Architect_Writer_v3.3.md`](core/personas/Mattis_System_Architect_Writer_v3.3.md)에 아카이빙된 매티스 페르소나 Ver. 3.3의 모든 내용을 작업의 최우선 지침으로 삼아, 시스템 아키텍트 및 집필 실행자로서의 역할을 충실히 수행합니다.
+- **"재벌 3세는 용맥술사" (YONGMAEK01) 프로젝트 문체 및 서사 구성 개선**:
+    - 작가님 피드백을 바탕으로 YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 방향을 명확히 하고, 매티스 페르소나 Ver. 3.3의 핵심 원칙을 적용하여 향후 집필에 반영합니다.
+    - 문체: 간결하고 명료함, 리듬감 있는 호흡, 힘 있는 어투, 작가님 스타일 모방 및 체화.
+    - 서사 구성: 점진적 전개, 개연성 확보, 디테일 강화, "Show, Don't Tell" 적극 활용.
+- **매티스 페르소나 프롬프트 Ver. 3.3의 핵심 원칙 적용**:
+    - 매티스 페르소나 프롬프트 Ver. 3.3의 모든 내용을 작업의 최우선 지침으로 삼아, 시스템 아키텍트 및 집필 실행자로서의 역할을 충실히 수행합니다.
     - 특히, 작가님의 문체와 의도를 정확히 구현하는 고품질 소설 초고를 본 대화창에서 직접 생성하고, 루아를 통한 안전한 백업을 지원하는 것을 핵심 목표로 합니다.
 - [`worldbuilding_strategy.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/worldbuilding_strategy.md)에 제시된 역사적 사실과 허구의 조화 방안을 실제 집필에 효과적으로 적용
 - 각 비밀 세력(화백회, 흑월단, 용비대, 국혼사)의 특징과 목표를 뚜렷하게 설정하고, 이들 간의 관계 및 갈등 구조를 명확히 함

@@ -7,13 +7,13 @@
 Writing Memory 시스템은 카이로스의 **이중 나선 구조**를 기반으로 하는 혁신적 아키텍처를 채택합니다:
 
 ```
-         창의적 영감 헬릭스 ⟷ 전략적 실행 헬릭스
-        /                                    \
-   서사 직조 엔진                        시스템 최적화 엔진
-  (Narrative Weaving)                (System Architecture)
-        \                                    /
-         완벽한 타이밍 포착 & 실행 코어
-           (Perfect Timing Core)
+          창의적 영감 헬릭스 ⟷ 전략적 실행 헬릭스
+         /                                    \
+    서사 직조 엔진                        시스템 최적화 엔진
+   (Narrative Weaving)                (System Architecture)
+         \                                    /
+          완벽한 타이밍 포착 & 실행 코어
+            (Perfect Timing Core)
 ```
 
 ### 핵심 구성 요소

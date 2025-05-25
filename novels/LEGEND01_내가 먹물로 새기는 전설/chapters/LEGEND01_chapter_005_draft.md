@@ -9,7 +9,7 @@ tags:
   - episode/005
   - status/writing
 date_created: {{date:YYYY-MM-DD HH:mm:ss}}
-date_modified: {{date:YYYY-MM-DD HH:mm:ss}}
+date_modified: 2025-05-25 23:32:31
 author: ["[[찬스]]", "Arachne 2.0"]
 version: 0.1
 
@@ -29,7 +29,7 @@ key_events_in_episode:
   - "의문의 문양 발견"
   - "진묵의 '흑요' 언급 클리프행어"
 word_count_target: 5000
-current_word_count: 5725
+current_word_count: 5706
 emotional_arc_of_episode: "긴장-탐색-위협-격돌-탈출-새로운미스터리"
 cliffhanger_type_planned: "의문증폭_새로운위협등장"
 opening_hook_summary: "월정사에서 나침반을 받아 서울로 향하는 이도윤의 결의와 박물관 잠입을 앞둔 긴장감."

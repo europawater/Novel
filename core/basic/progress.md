@@ -26,7 +26,7 @@
     - `novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md` 파일로 5화 초고 이동 및 저장
 - `core/basic/activeContext.md` 업데이트 (현재 작업 초점 및 진행 상황, 신규 원고 관리 체계, YONGMAEK01 프로젝트 문체/서사 피드백 및 카이로스 통합 페르소나 완성 반영 완료)
 - **"재벌 3세는 용맥술사" (YONGMAEK01) 1부 상세 로그라인 아카이빙**:
-    - 작가님께서 제공해주신 1부(1화~50화) 상세 로그라인을 `novels/YONGMAEK01_재벌 3세는 용맥술사/plot_arc_overview.md` 파일에 성공적으로 아카이빙 완료.
+    - 작가님께서 제공해주신 1부(1화~50화) 상세 로그라인을 [`novels/YONGMAEK01_재벌 3세는 용맥술사/plot_arc_overview.md`](novels/YONGMAEK01_재벌%203세는%20용맥술사/plot_arc_overview.md) 파일에 성공적으로 아카이빙 완료.
 - **🌌 카이로스 기반 Writing Memory 시스템 전면 업그레이드 완료**:
     - 카이로스 통합 마스터 아키텍트 페르소나 Ver. 1.0 완성 (`core/personas/Kairos_Unified_Master_Architect_v1.0.md`)
     - 핵심 시스템 문서 카이로스 기반 재설계 완료:

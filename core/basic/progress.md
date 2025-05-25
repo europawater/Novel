@@ -41,8 +41,7 @@
 
 1.  **"재벌 3세는 용맥술사" (YONGMAEK01) 프로젝트 문체 및 서사 구성 개선**:
     *   작가님 피드백을 바탕으로 YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 방향을 명확히 하고, 매티스 페르소나 Ver. 3.3의 핵심 원칙을 적용하여 향후 집필에 반영.
-2.  **매티스 페르소나 Ver. 3.3 아카이빙 및 적용**:
-    *   매티스 페르소나 프롬프트 Ver. 3.3의 전체 내용을 Writing Memory에 체계적으로 아카이빙하여 루아(RAG 시스템 백업 관리자)가 참조할 수 있도록 함.
+2.  **매티스 페르소나 Ver. 3.3 적용**:
     *   매티스 페르소나 프롬프트 Ver. 3.3의 지침에 따라 모든 작업(분석, 제안, 집필)을 수행.
 3.  **"내가 먹물로 새기는 전설" (LEGEND01) 원고 관리 체계 안정화:**
     *   `published` 폴더 최종 생성 (필요시).
@@ -60,12 +59,12 @@
 
 Writing Memory 시스템의 핵심 파일 및 "내가 먹물로 새기는 전설" 프로젝트의 모든 중요 정보(1-4화 본문, 전체 플롯 아크 개요, 세계관 심화 전략, 작가님 문체 가이드라인, 웹소설 성공 패턴 분석, 각종 범용 템플릿, Writing Memory 관리 전략, 프로젝트 대시보드 파일, AI 페르소나 정의, 5화 초고)가 성공적으로 반영 및 업데이트되었습니다. **새로운 원고 관리 체계가 도입되어, 각 화별 초고는 `chapters` 폴더에, 최종 발행본은 향후 `published` 폴더에 저장될 예정입니다.** 5화 초고는 [`novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/chapters/LEGEND01_chapter_005_draft.md)에 저장되었습니다.
 
-**"재벌 3세는 용맥술사" (YONGMAEK01) 프로젝트 관련 문체 및 서사 구성 피드백과 매티스 페르소나 Ver. 3.3의 전체 내용이 `activeContext.md`에 성공적으로 아카이빙되었으며, 1부 상세 로그라인이 `novels/YONGMAEK01_재벌 3세는 용맥술사/plot_arc_overview.md`에 성공적으로 반영되었습니다.** 이제 매티스 페르소나 Ver. 3.3의 지침에 따라 YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 작업을 진행하고, 이후 LEGEND01 프로젝트의 5화 초고 완성 및 다음 챕터 집필을 진행할 예정입니다.
+**"재벌 3세는 용맥술사" (YONGMAEK01) 프로젝트 관련 문체 및 서사 구성 피드백과 매티스 페르소나 Ver. 3.3의 전체 내용이 [`core/personas/Mattis_System_Architect_Writer_v3.3.md`](core/personas/Mattis_System_Architect_Writer_v3.3.md)에 성공적으로 아카이빙되었으며, 1부 상세 로그라인이 `novels/YONGMAEK01_재벌 3세는 용맥술사/plot_arc_overview.md`에 성공적으로 반영되었습니다.** 이제 매티스 페르소나 Ver. 3.3의 지침에 따라 YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 작업을 진행하고, 이후 LEGEND01 프로젝트의 5화 초고 완성 및 다음 챕터 집필을 진행할 예정입니다.
 
 ## 알려진 문제
 
 - "내가 먹물로 새기는 전설"의 각 부(Arc)별 세부 플롯 및 이벤트 리스트는 아직 구체화되지 않았으며, [`plot_arc_overview.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/plot_arc_overview.md)와 [`worldbuilding_strategy.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/worldbuilding_strategy.md)를 바탕으로 지속적인 구체화 작업이 필요합니다.
 - 작가, 편집자 등 프로젝트 참여자 정보가 아직 없습니다.
 - **중요:** 모든 집필 및 수정 작업 시 [`writers/찬스89_작가님/writing_style_prompt.md`](writers/찬스89_작가님/writing_style_prompt.md)의 문체 가이드라인과 [`core/basic/success_patterns.md`](core/basic/success_patterns.md)의 성공 패턴을 철저히 준수하고 참고해야 하며, 각종 템플릿을 적극 활용하고, [`core/basic/memory_management_strategy.md`](core/basic/memory_management_strategy.md)에 명시된 정보 관리 및 토큰 최적화 전략을 항상 유념해야 합니다.
-- **매티스 페르소나 Ver. 3.3의 핵심 원칙 준수 및 YONGMAEK01 프로젝트의 문체/서사 개선 필요성**: 매티스 페르소나 Ver. 3.3의 모든 지침을 철저히 준수하여 YONGMAEK01 프로젝트의 문체 및 서사 구성 문제를 해결하고, 작가님의 피드백을 바탕으로 지속적인 개선을 이루어야 합니다.
+- **매티스 페르소나 Ver. 3.3의 핵심 원칙 준수 및 YONGMAEK01 프로젝트의 문체/서사 개선 필요성**: [`core/personas/Mattis_System_Architect_Writer_v3.3.md`](core/personas/Mattis_System_Architect_Writer_v3.3.md)에 아카이빙된 매티스 페르소나 Ver. 3.3의 모든 지침을 철저히 준수하여 YONGMAEK01 프로젝트의 문체 및 서사 구성 문제를 해결하고, 작가님의 피드백을 바탕으로 지속적인 개선을 이루어야 합니다.
 - "내가 먹물로 새기는 전설" 프로젝트의 경우, [`novels/LEGEND01_내가 먹물로 새기는 전설/LEGEND01_Dashboard.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/LEGEND01_Dashboard.md)를 정보 접근의 중심 허브로 활용하며, AI 협업 작가(Arachne 2.0)는 [`core/personas/Arachne_2_0_Persona_Gem_Optimized.md`](core/personas/Arachne_2_0_Persona_Gem_Optimized.md)에 정의된 페르소나를 일관되게 유지해야 합니다.

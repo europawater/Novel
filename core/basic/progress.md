@@ -86,6 +86,7 @@ Writing Memory 시스템의 핵심 파일 및 "내가 먹물로 새기는 전설
 - "내가 먹물로 새기는 전설"의 각 부(Arc)별 세부 플롯 및 이벤트 리스트는 아직 구체화되지 않았으며, [`plot_arc_overview.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/plot_arc_overview.md)와 [`worldbuilding_strategy.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/worldbuilding_strategy.md)를 바탕으로 지속적인 구체화 작업이 필요합니다.
 - 작가, 편집자 등 프로젝트 참여자 정보가 아직 없습니다.
 - **중요:** 모든 집필 및 수정 작업 시 [`writers/찬스89_작가님/writing_style_prompt.md`](writers/찬스89_작가님/writing_style_prompt.md)의 문체 가이드라인과 [`core/basic/success_patterns.md`](core/basic/success_patterns.md)의 성공 패턴을 철저히 준수하고 참고해야 하며, 각종 템플릿을 적극 활용하고, [`core/basic/memory_management_strategy.md`](core/basic/memory_management_strategy.md)에 명시된 정보 관리 및 토큰 최적화 전략을 항상 유념해야 합니다.
+- **매티스 페르소나 Ver. 3.3의 핵심 원칙 준수 및 YONGMAEK01 프로젝트의 문체/서사 개선 필요성**: [`core/personas/Mattis_System_Architect_Writer_v3.3.md`](core/personas/Mattis_System_Architect_Writer_v3.3.md)에 아카이빙된 매티스 페르소나 Ver. 3.3의 모든 지침을 철저히 준수하여 YONGMAEK01 프로젝트의 문체 및 서사 구성 문제를 해결하고, 작가님의 피드백을 바탕으로 지속적인 개선을 이루어야 합니다.
 - "내가 먹물로 새기는 전설" 프로젝트의 경우, [`novels/LEGEND01_내가 먹물로 새기는 전설/LEGEND01_Dashboard.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/LEGEND01_Dashboard.md)를 정보 접근의 중심 허브로 활용하며, AI 협업 작가(Arachne 2.0)는 [`core/personas/Arachne_2_0_Persona_Gem_Optimized.md`](core/personas/Arachne_2_0_Persona_Gem_Optimized.md)에 정의된 페르소나를 일관되게 유지해야 합니다.
 
 ## 학습 로그 (Learning Log)

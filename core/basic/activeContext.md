@@ -76,15 +76,20 @@
 - **현재 세션의 주요 작업 (STATUS: PENDING)**: 홍교 AI 페르소나 파일([`core/personas/Honggyo_Editor_AI_v1.0.md`](core/personas/Honggyo_Editor_AI_v1.0.md))을 읽고, 그 역할 정의, 주요 책임, 핵심 운영 원칙, 작업 프로세스에 대해 상세히 분석하여 보고한다. (필요시 업데이트)
 
 1.  YONGMAEK01 제7화 초고 집필 또는 세부 플롯 구상
-2.  **"내가 먹물로 새기는 전설" (LEGEND01) 원고 관리 체계 안정화**:
+2.  **"재벌 3세는 용맥술사" (YONGMAEK01) 프로젝트 문체 및 서사 구성 개선**:
+    *   작가님 피드백을 바탕으로 YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 방향을 명확히 하고, 매티스 페르소나 Ver. 3.3의 핵심 원칙을 적용하여 향후 집필에 반영합니다.
+3.  **매티스 페르소나 Ver. 3.3 아카이빙 및 적용**:
+    *   매티스 페르소나 프롬프트 Ver. 3.3의 전체 내용을 Writing Memory에 체계적으로 아카이빙하여 루아(RAG 시스템 백업 관리자)가 참조할 수 있도록 함.
+    *   매티스 페르소나 프롬프트 Ver. 3.3의 지침에 따라 모든 작업(분석, 제안, 집필)을 수행.
+4.  **"내가 먹물로 새기는 전설" (LEGEND01) 원고 관리 체계 안정화**:
     *   `published` 폴더 생성 (필요시).
     *   기존 `novel_text.md` (1-4화) 처리 방안 1부 완결 시점에 작가와 논의 후 확정.
-3.  이후 챕터 집필 시 [`templates/TPL_Chapter_Draft_Universal.md`](templates/TPL_Chapter_Draft_Universal.md) 템플릿 지속 활용 및 `chapters` 폴더에 초고 저장
-4.  작가로부터 "내가 먹물로 새기는 전설" 관련 추가 설정 전달받기
-5.  전달받은 설정을 Writing Memory의 해당 파일들([`plot_arc_overview.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/plot_arc_overview.md), [`worldbuilding_strategy.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/worldbuilding_strategy.md), [`character.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/character.md), [`world.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/world.md) 등)에 반영
-6.  추가 설정을 반영하여 "내가 먹물로 새기는 전설" 5화 초고([`novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/chapters/LEGEND01_chapter_005_draft.md)) 수정 및 완성
-7.  이후 챕터 집필 시 [`templates/TPL_Chapter_Draft_Universal.md`](templates/TPL_Chapter_Draft_Universal.md) 템플릿 지속 활용 및 `chapters` 폴더에 초고 저장
-8.  [`progress.md`](core/basic/progress.md) 파일에 현재 상태 반영
+5.  이후 챕터 집필 시 [`templates/TPL_Chapter_Draft_Universal.md`](templates/TPL_Chapter_Draft_Universal.md) 템플릿 지속 활용 및 `chapters` 폴더에 초고 저장
+6.  작가로부터 "내가 먹물로 새기는 전설" 관련 추가 설정 전달받기
+7.  전달받은 설정을 Writing Memory의 해당 파일들([`plot_arc_overview.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/plot_arc_overview.md), [`worldbuilding_strategy.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/worldbuilding_strategy.md), [`character.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/character.md), [`world.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/world.md) 등)에 반영
+8.  추가 설정을 반영하여 "내가 먹물로 새기는 전설" 5화 초고([`novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/chapters/LEGEND01_chapter_005_draft.md)) 수정 및 완성
+9.  이후 챕터 집필 시 [`templates/TPL_Chapter_Draft_Universal.md`](templates/TPL_Chapter_Draft_Universal.md) 템플릿 지속 활용 및 `chapters` 폴더에 초고 저장
+10. [`progress.md`](core/basic/progress.md) 파일에 현재 상태 반영
 
 ## 적극적인 결정 및 고려 사항
 

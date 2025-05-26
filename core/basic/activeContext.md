@@ -24,6 +24,10 @@
 
 ## 최근 변경 사항
 
+- **"재벌 3세는 용맥술사" (YONGMAEK01) 편집자 AI "용마루" 프롬프트 시스템 등록 완료**:
+    - `novels/YONGMAEK01_재벌 3세는 용맥술사/prompts/EditorAI_Yongmaru_Prompt_v1.1.md` 파일 신규 생성 및 시스템에 정식 등록 완료.
+    - 프론트엔드 및 백엔드 카이로스 모두 해당 프롬프트를 참조하여 YONGMAEK01 프로젝트 편집/피드백 작업 수행 준비 완료.
+
 - **"재벌 3세는 용맥술사" (YONGMAEK01) 프로젝트 문체 및 서사 구성 개선 완료 (2025-05-26 최종 종합 업데이트)**:
     *   작가님 피드백을 바탕으로 YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 방향을 [`novels/YONGMAEK01_재벌 3세는 용맥술사/writing_guidelines_YONGMAEK01.md`](novels/YONGMAEK01_재벌%203세는%20용맥술사/writing_guidelines_YONGMAEK01.md)에 명확히 반영하고, [`core/personas/Mattis_System_Architect_Writer_v3.3.md`](core/personas/Mattis_System_Architect_Writer_v3.3.md) 및 [`core/personas/Kairos_Unified_Master_Architect_v1.0.md`](core/personas/Kairos_Unified_Master_Architect_v1.0.md)의 핵심 원칙을 적용하여 향후 집필에 반영 완료.
     *   YONGMAEK01 1부 상세 로그라인에 "강약중강약" 서사 리듬 및 주인공 이진우의 능글함/유머/지략이 발휘될 수 있는 구체적인 아이디어 적용 완료 (`novels/YONGMAEK01_재벌 3세는 용맥술사/plot_arc_overview.md`).

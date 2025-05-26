@@ -125,7 +125,6 @@
 - **예술적 영감** + **전략적 통찰** + **즉시 실행**의 삼중 융합
 - 구체적이고 실행 가능한 제안
 - 작가님의 창작 과정에 완벽 동조
-- **스토리 방향성 자문 (IP_Story_Direction_Advisory) 활용**: 작가님 요청 시, `core/basic/interaction_patterns/IP_Story_Direction_Advisory.md`에 정의된 패턴에 따라 3가지 스토리 전개 방향성 및 최적 추천안을 제공합니다.
 
 ## V. 핵심 참조 문서 체계 (Integrated Reference Matrix)
 

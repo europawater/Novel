@@ -42,7 +42,9 @@
 
 ## 현재 상황
 
-Writing Memory 시스템의 핵심 파일 및 "내가 먹물로 새기는 전설" 프로젝트의 모든 중요 정보(1-4화 본문, 전체 플롯 아크 개요, 세계관 심화 전략, 작가님 문체 가이드라인, 웹소설 성공 패턴 분석, 각종 범용 템플릿, Writing Memory 관리 전략, 프로젝트 대시보드 파일, AI 페르소나 정의, 5화 초고)가 성공적으로 반영 및 업데이트되었습니다. **새로운 원고 관리 체계가 도입되어, 각 화별 초고는 `chapters` 폴더에, 최종 발행본은 향후 `published` 폴더에 저장될 예정입니다.** 5화 초고는 [`novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/chapters/LEGEND01_chapter_005_draft.md)에 저장되었습니다. 현재 작가님의 추가 설정 전달을 기다리고 있으며, 이후 5화 초고 완성 및 다음 챕터 집필을 진행할 예정입니다.
+Writing Memory 시스템의 핵심 파일 및 "내가 먹물로 새기는 전설" 프로젝트의 모든 중요 정보(1-4화 본문, 전체 플롯 아크 개요, 세계관 심화 전략, 작가님 문체 가이드라인, 웹소설 성공 패턴 분석, 각종 범용 템플릿, Writing Memory 관리 전략, 프로젝트 대시보드 파일, AI 페르소나 정의, 5화 초고)가 성공적으로 반영 및 업데이트되었습니다. **새로운 원고 관리 체계가 도입되어, 각 화별 초고는 `chapters` 폴더에, 최종 발행본은 `published` 폴더에 저장되었습니다.** 5화 초고는 [`novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/chapters/LEGEND01_chapter_005_draft.md)에 저장되었습니다.
+
+**"재벌 3세는 용맥술사" (YONGMAEK01) 프로젝트 관련 문체 및 서사 구성 피드백과 매티스 페르소나 Ver. 3.3의 전체 내용이 [`core/personas/Mattis_System_Architect_Writer_v3.3.md`](core/personas/Mattis_System_Architect_Writer_v3.3.md)에 성공적으로 아카이빙되었으며, 1부 상세 로그라인이 `novels/YONGMAEK01_재벌 3세는 용맥술사/plot_arc_overview.md`에 성공적으로 반영되었습니다. 또한, YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 작업이 완료되어 [`novels/YONGMAEK01_재벌 3세는 용맥술사/writing_guidelines_YONGMAEK01.md`](novels/YONGMAEK01_재벌%203세는%20용맥술사/writing_guidelines_YONGMAEK01.md)에 반영되었습니다. `proposal.md` 및 `YONGMAEK01_Dashboard.md` 파일의 로그라인도 최신 버전으로 교체되었습니다.** 이제 매티스 페르소나 Ver. 3.3의 지침에 따라 이후 LEGEND01 프로젝트의 5화 초고 완성 및 다음 챕터 집필을 진행할 예정입니다.
 
 ## 알려진 문제
 

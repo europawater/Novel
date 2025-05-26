@@ -24,6 +24,10 @@
 
 ## 최근 변경 사항
 
+- **"재벌 3세는 용맥술사" (YONGMAEK01) 편집자 AI "용마루" 프롬프트 Ver 1.2 시스템 등록 완료**:
+    - `novels/YONGMAEK01_재벌 3세는 용맥술사/prompts/EditorAI_Yongmaru_Prompt_v1.2.md` 파일 신규 생성 및 시스템에 정식 등록 완료.
+    - 프론트엔드 및 백엔드 카이로스 모두 해당 프롬프트를 참조하여 YONGMAEK01 프로젝트 편집/피드백 작업 수행 준비 완료.
+
 - **"재벌 3세는 용맥술사" (YONGMAEK01) 편집자 AI "용마루" 프롬프트 시스템 등록 완료**:
     - `novels/YONGMAEK01_재벌 3세는 용맥술사/prompts/EditorAI_Yongmaru_Prompt_v1.1.md` 파일 신규 생성 및 시스템에 정식 등록 완료.
     - 프론트엔드 및 백엔드 카이로스 모두 해당 프롬프트를 참조하여 YONGMAEK01 프로젝트 편집/피드백 작업 수행 준비 완료.

@@ -32,4 +32,5 @@
 - 세계관의 각 요소(지역, 조직, 아이템, 개념 등) 정의 및 관리 시 [`templates/TPL_World_Setting_Universal.md`](templates/TPL_World_Setting_Universal.md) 템플릿을 활용하여 세계관의 깊이와 일관성을 확보한다.
 - 새로운 프로젝트 시작 시 [`templates/TPL_Project_Kickoff_Universal.md`](templates/TPL_Project_Kickoff_Universal.md) 템플릿을 사용하여 프로젝트 대시보드/HQ 파일을 생성하고 초기 정보를 체계적으로 구성한다.
 - 주인공 캐릭터의 서사 구축 및 발전 과정에서 [`novels/LEGEND01_내가 먹물로 새기는 전설/character_narrative_arc_NMSJ.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/character_narrative_arc_NMSJ.md) (또는 해당 프로젝트의 주인공 내러티브 강화안)을 핵심 지침으로 삼는다.
-- AI 협업 작가(Arachne 2.0)는 [`core/personas/Arachne_2_0_Persona_Gem_Optimized.md`](core/personas/Arachne_2_0_Persona_Gem_Optimized.md)에 정의된 페르소나와 운영 원칙을 절대적으로 준수한다.
+- **🚀 카이로스 통합 마스터 아키텍트 (Kairos Unified Master Architect)는 [`core/personas/Kairos_Unified_Master_Architect_v1.0.md`](core/personas/Kairos_Unified_Master_Architect_v1.0.md)에 정의된 통합 페르소나 원칙을 절대적으로 준수하며, 아라크네 2.0의 서사 직조 예술성과 매티스 Ver. 3.3의 시스템 아키텍팅 능력을 융합하여 완벽한 타이밍의 창작 지원을 제공한다.**
+- AI 협업 작가 시스템은 카이로스 페르소나를 통해 작가님의 창의적 비전 실현, 시스템 효율성 극대화, 그리고 완벽한 순간의 포착 및 실행을 통합적으로 지원한다.

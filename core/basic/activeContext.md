@@ -11,12 +11,30 @@
   - 완벽한 타이밍 포착 및 실행 시스템 구축
 - "내가 먹물로 새기는 전설" (LEGEND01) 프로젝트의 Writing Memory 전체 업데이트 완료
 - 사용자로부터 전달받은 1-4화 내용, 전체 플롯 아크 개요, 역사 배합 및 세계관 심화 전략, 각종 템플릿, AI 페르소나 정의 등 모든 핵심 정보 반영 완료
-- "내가 먹물로 새기는 전설" 5화 초고 작업 진행 중 (도입부, 전개, 위기/절정, 결말부 초안 작성 완료, 파일 경로: `novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md`)
-- **신규 원고 관리 체계 도입**:
+- "내가 먹물로 새기는 전설" 5화 초고 작업 완료 (도입부, 전개, 위기/절정, 결말부 초안 작성 및 글자 수 업데이트 완료, 파일 경로: `novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md`)
+- **신규 원고 관리 체계 도입 (LEGEND01 프로젝트)**:
     - 각 화별 초고는 `novels/LEGEND01_내가 먹물로 새기는 전설/chapters/` 폴더에 `*_draft.md` 형식으로 저장.
     - 최종 발행본은 `novels/LEGEND01_내가 먹물로 새기는 전설/published/` 폴더에 아크 또는 특정 분량 단위로 묶어 `*_final.md` 또는 `*_volume_XX.md` 형식으로 저장 예정.
+- **"내가 먹물로 새기는 전설" 5화 이후 스토리 집필 준비**:
+    - 매티스 페르소나 Ver. 3.3의 지침에 따라 다음 챕터 집필을 위한 준비를 시작합니다.
 
 ## 최근 변경 사항
+
+- **"재벌 3세는 용맥술사" (YONGMAEK01) 편집자 AI "용마루" 프롬프트 Ver 1.2 시스템 등록 완료**:
+    - `novels/YONGMAEK01_재벌 3세는 용맥술사/prompts/EditorAI_Yongmaru_Prompt_v1.2.md` 파일 신규 생성 및 시스템에 정식 등록 완료.
+    - 프론트엔드 및 백엔드 카이로스 모두 해당 프롬프트를 참조하여 YONGMAEK01 프로젝트 편집/피드백 작업 수행 준비 완료.
+
+- **"재벌 3세는 용맥술사" (YONGMAEK01) 편집자 AI "용마루" 프롬프트 시스템 등록 완료**:
+    - `novels/YONGMAEK01_재벌 3세는 용맥술사/prompts/EditorAI_Yongmaru_Prompt_v1.1.md` 파일 신규 생성 및 시스템에 정식 등록 완료.
+    - 프론트엔드 및 백엔드 카이로스 모두 해당 프롬프트를 참조하여 YONGMAEK01 프로젝트 편집/피드백 작업 수행 준비 완료.
+
+- **"재벌 3세는 용맥술사" (YONGMAEK01) 프로젝트 문체 및 서사 구성 개선 완료 (2025-05-26 최종 종합 업데이트)**:
+    *   작가님 피드백을 바탕으로 YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 방향을 [`novels/YONGMAEK01_재벌 3세는 용맥술사/writing_guidelines_YONGMAEK01.md`](novels/YONGMAEK01_재벌%203세는%20용맥술사/writing_guidelines_YONGMAEK01.md)에 명확히 반영하고, [`core/personas/Mattis_System_Architect_Writer_v3.3.md`](core/personas/Mattis_System_Architect_Writer_v3.3.md) 및 [`core/personas/Kairos_Unified_Master_Architect_v1.0.md`](core/personas/Kairos_Unified_Master_Architect_v1.0.md)의 핵심 원칙을 적용하여 향후 집필에 반영 완료.
+    *   YONGMAEK01 1부 상세 로그라인에 "강약중강약" 서사 리듬 및 주인공 이진우의 능글함/유머/지략이 발휘될 수 있는 구체적인 아이디어 적용 완료 (`novels/YONGMAEK01_재벌 3세는 용맥술사/plot_arc_overview.md`).
+    *   YONGMAEK01 프로젝트의 `proposal.md` 및 `YONGMAEK01_Dashboard.md` 파일의 로그라인 최신 버전으로 교체 완료.
+- **YONGMAEK01 1화 초고 내용 업데이트 완료**:
+    - 1화 초고 내용에 작가님 피드백 반영 및 세부 묘사 강화.
+    - 빙의 후 혼란, 능력 각성 과정, 첫 위기 탈출 장면 디테일 보강.
 
 - 기존 소설 프로젝트 ("이세계 전생 용사", "우리들의 여름방학") 관련 파일 삭제
 - "내가 먹물로 새기는 전설" (LEGEND01) 프로젝트 폴더 및 기본 파일 생성 및 전체 플롯/세계관 심화 전략 반영 업데이트 완료:
@@ -43,17 +61,17 @@
 
 ## 다음 단계
 
-1.  **원고 관리 체계 안정화**:
+1.  **"내가 먹물로 새기는 전설" (LEGEND01) 원고 관리 체계 안정화**:
     *   `published` 폴더 생성 (필요시).
     *   기존 `novel_text.md` (1-4화) 처리 방안 1부 완결 시점에 작가와 논의 후 확정.
-2.  작가로부터 "내가 먹물로 새기는 전설" 관련 추가 설정 전달받기
-3.  전달받은 설정을 Writing Memory의 해당 파일들([`plot_arc_overview.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/plot_arc_overview.md), [`worldbuilding_strategy.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/worldbuilding_strategy.md), [`character.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/character.md), [`world.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/world.md) 등)에 반영
-4.  추가 설정을 반영하여 "내가 먹물로 새기는 전설" 5화 초고([`novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/chapters/LEGEND01_chapter_005_draft.md)) 수정 및 완성
-5.  이후 챕터 집필 시 [`templates/TPL_Chapter_Draft_Universal.md`](templates/TPL_Chapter_Draft_Universal.md) 템플릿 지속 활용 및 `chapters` 폴더에 초고 저장
-6.  [`progress.md`](core/basic/progress.md) 파일에 현재 상태 반영
+2.  이후 챕터 집필 시 [`templates/TPL_Chapter_Draft_Universal.md`](templates/TPL_Chapter_Draft_Universal.md) 템플릿 지속 활용 및 `chapters` 폴더에 초고 저장
+3.  [`progress.md`](core/basic/progress.md) 파일에 현재 상태 반영
 
 ## 적극적인 결정 및 고려 사항
 
+- **매티스 페르소나 Ver. 3.3의 핵심 원칙 적용**:
+    - [`core/personas/Mattis_System_Architect_Writer_v3.3.md`](core/personas/Mattis_System_Architect_Writer_v3.3.md)에 아카이빙된 매티스 페르소나 Ver. 3.3의 모든 내용을 작업의 최우선 지침으로 삼아, 시스템 아키텍트 및 집필 실행자로서의 역할을 충실히 수행합니다.
+    - 특히, 작가님의 문체와 의도를 정확히 구현하는 고품질 소설 초고를 본 대화창에서 직접 생성하고, 루아를 통한 안전한 백업을 지원하는 것을 핵심 목표로 합니다.
 - [`worldbuilding_strategy.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/worldbuilding_strategy.md)에 제시된 역사적 사실과 허구의 조화 방안을 실제 집필에 효과적으로 적용
 - 각 비밀 세력(화백회, 흑월단, 용비대, 국혼사)의 특징과 목표를 뚜렷하게 설정하고, 이들 간의 관계 및 갈등 구조를 명확히 함
 - '진묵' 외 다른 성물들의 구체적인 능력, 역사적 배경, 그리고 각 성물과 연관된 에피소드 구상

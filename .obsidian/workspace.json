@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/chapter_003/chapter_003_text.md",
+                "file": "novels/YONGMAEK01_재벌 3세는 용맥술사/chapters/YONGMAEK01_chapter_005_draft.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "chapter_003_text"
+              "title": "YONGMAEK01_chapter_005_draft"
+            }
+          },
+          {
+            "id": "b9c47ab88ddbf431",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "novels/YONGMAEK01_재벌 3세는 용맥술사/chapters/YONGMAEK01_chapter_002_draft.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "YONGMAEK01_chapter_002_draft"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 567.5
   },
   "right": {
     "id": "990710391b0609fa",
@@ -168,18 +183,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "549bda6cb8c66425",
+  "active": "b9c47ab88ddbf431",
   "lastOpenFiles": [
-    "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/chapter_004/chapter_004_text.md",
-    "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md",
-    "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/chapter_003/chapter_003_text.md",
-    "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/chapter_001/chapter_001_text.md",
-    "core/personas/Arachne_2_0_Persona_Gem_Optimized.md",
-    "core/references/staging/웹소설 대사 작성 시 유의사항.pdf",
-    "core/references/staging/Part 6. 작품 초고 집필.pdf",
+    "novels/YONGMAEK01_재벌 3세는 용맥술사/chapters/YONGMAEK01_chapter_001_draft.md",
+    "novels/YONGMAEK01_재벌 3세는 용맥술사/chapters/YONGMAEK01_chapter_005_draft.md",
+    "novels/YONGMAEK01_재벌 3세는 용맥술사/chapters/YONGMAEK01_chapter_004_draft.md",
+    "core/personas/Kairos_Unified_Master_Architect_v1.0.md",
+    "core/personas/Mattis_System_Architect_Writer_v3.3.md",
+    "novels/YONGMAEK01_재벌 3세는 용맥술사/chapters/YONGMAEK01_chapter_003_draft.md",
+    "novels/YONGMAEK01_재벌 3세는 용맥술사/chapters/YONGMAEK01_chapter_002_draft.md",
+    "novels/YONGMAEK01_재벌 3세는 용맥술사/writing_guidelines_YONGMAEK01.md",
+    "novels/LEGEND01_내가 먹물로 새기는 전설/characters/NMSJ_CHAR_LeeDoYoon.md",
     "core/references/staging/Part 5. 세계관 구축과 플롯 설계.pdf",
-    "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/chapter_002/chapter_002_text.md",
-    "core/references/writing_guides/first_draft_generation_strategies.md",
-    "core/references/writing_guides/dialogue_crafting_manual.md"
+    "novels/LEGEND01_내가 먹물로 새기는 전설/config.md",
+    "novels/YONGMAEK01_재벌 3세는 용맥술사/chapters",
+    "novels/YONGMAEK01_재벌 3세는 용맥술사/YONGMAEK01_Dashboard.md",
+    "novels/YONGMAEK01_재벌 3세는 용맥술사/plot_arc_overview.md",
+    "novels/YONGMAEK01_재벌 3세는 용맥술사/world.md",
+    "novels/YONGMAEK01_재벌 3세는 용맥술사/character.md",
+    "novels/YONGMAEK01_재벌 3세는 용맥술사/design_specification.md",
+    "novels/YONGMAEK01_재벌 3세는 용맥술사/proposal.md",
+    "novels/YONGMAEK01_재벌 3세는 용맥술사/config.md",
+    "novels/YONGMAEK01_재벌 3세는 용맥술사",
+    "novels/LEGEND01_내가 먹물로 새기는 전설/LEGEND01_Dashboard.md",
+    "novels/LEGEND01_내가 먹물로 새기는 전설/design_specification.md",
+    "novels/LEGEND01_내가 먹물로 새기는 전설/character.md",
+    "novels/LEGEND01_내가 먹물로 새기는 전설/character_narrative_arc_NMSJ.md",
+    "core/basic/activeContext.md",
+    "core/references/writing_guides/revision_checklist.md",
+    "novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md",
+    "novels/LEGEND01_내가 먹물로 새기는 전설/characters/NMSJ_CHAR_Jinmuk_Voice.md",
+    "core/personas/Arachne_2_0_Persona_Gem_Optimized.md",
+    "core/references/staging/Part 6. 작품 초고 집필.pdf",
+    "core/references/staging/웹소설 대사 작성 시 유의사항.pdf"
   ]
 }

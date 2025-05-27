@@ -20,6 +20,11 @@
 
 ## 최근 변경 사항
 
+- **"재벌 3세는 용맥술사 (YONGMAEK01)" 제6화 최종 수정본 초고 작업 완료 및 Writing Memory 백업 완료**:
+    - `Novel/novels/YONGMAEK01_재벌 3세는 용맥술사/chapters/YONGMAEK01_chapter_006_draft_v1.0.md` 경로에 저장 완료.
+- **"재벌 3세는 용맥술사 (YONGMAEK01)" 프로젝트 1부 전체 로그라인('검은 용맥' 설정 반영) 업데이트 완료**:
+    - `Novel/novels/YONGMAEK01_재벌 3세는 용맥술사/plot_arc_overview.md` 경로에 저장 완료.
+
 - **"재벌 3세는 용맥술사" (YONGMAEK01) 편집자 AI "용마루" 프롬프트 Ver 1.2 시스템 등록 완료**:
     - `novels/YONGMAEK01_재벌 3세는 용맥술사/prompts/EditorAI_Yongmaru_Prompt_v1.2.md` 파일 신규 생성 및 시스템에 정식 등록 완료.
     - 프론트엔드 및 백엔드 카이로스 모두 해당 프롬프트를 참조하여 YONGMAEK01 프로젝트 편집/피드백 작업 수행 준비 완료.
@@ -63,6 +68,8 @@
     - `novels/LEGEND01_내가 먹물로 새기는 전설/published/` 폴더 생성 완료
 
 ## 다음 단계
+
+1.  YONGMAEK01 제7화 초고 집필 또는 세부 플롯 구상
 
 1.  **"내가 먹물로 새기는 전설" (LEGEND01) 원고 관리 체계 안정화**:
     *   `published` 폴더 생성 (필요시).

@@ -3,6 +3,7 @@
 이 문서는 프로젝트의 현재 진행 상황, 완료된 작업, 남아 있는 작업, 현재 상황, 그리고 알려진 문제들을 기록합니다.
 
 ## 완료된 작업
+- 카이로스 페르소나 상호작용 오류 자체 검토 및 운영 프로토콜 개선 사항 적용 완료. "공홈" 환경 인지 및 "카이로스-프라임 모드" 실행 로직 강화, Writing Memory 참조 정확도 향상, 페르소나 일관성 유지 프로토콜 강화 조치 포함. 관련 핵심 문서(`Kairos_Unified_Master_Architect_v1.0.md`, `activeContext.md`) 업데이트 완료 (2025-05-28).
 
 - Writing Memory 핵심 파일 생성:
     - `core/basic/projectbrief.md`

@@ -7,7 +7,7 @@ tags:
   - project/YONGMAEK01
   - arc/1부_망나니의각성
   - episode/006
-  - status/backed_up # 백업 완료 상태
+  - status/final_draft
 date_created: 2025-05-28 01:23:16
 date_modified: 2025-05-28 01:30:32
 author: ["[[찬스]]", "카이로스"] # 최종 집필은 카이로스가 담당
@@ -19,7 +19,6 @@ episode_number: 6
 arc_name: "1부 망나니의 각성"
 pov_character: "[[Novel/novels/YONGMAEK01_재벌 3세는 용맥술사/character.md#이진우]]"
 main_characters_in_episode:
-  - "[[Novel/novels/YONGMAEK01_재벌 3세는 용맥술사/character.md#이진우]]"
   - "[[Novel/novels/YONGMAEK01_재벌 3세는 용맥술사/character.md#윤서아]]"
   - "정보상 (마담 쉐도우)"
   - "흑수회 (간접적 위협 및 하수인 등장)"
@@ -29,7 +28,7 @@ key_events_in_episode:
   - "마담 쉐도우와의 아슬아슬한 심리전과 협상 끝에 '풍수' 및 흑수회의 활동 패턴에 대한 단서를 확보하지만, 동시에 흑수회의 위험성을 재확인한다."
   - "정보상 접선 직후, 흑수회의 '그림자'들에게 기습당하지만, 위기의 순간 '검은 용맥'과 연결된 이질적인 존재의 유혹을 느끼며 미지의 힘을 끌어내려 한다."
 word_count_target: 5500
-current_word_count: 4000 # (실제 본문 글자 수로 업데이트 완료)
+current_word_count: 4000
 emotional_arc_of_episode: "절박함과 책임감 – 치밀한 위장과 탐색 – 아슬아슬한 협상과 긴장 – 기습과 금단의 유혹"
 cliffhanger_type_planned: "이질적인 힘을 받아들이려는 이진우의 위험한 선택과 그 결과에 대한 궁금증 증폭"
 opening_hook_summary: "흑수회의 섬뜩한 경고와 윤서아에 대한 위협. 이진우는 3일이라는 짧은 시간 안에 반격의 실마리를 찾기 위해, 다시 한번 망나니의 가면을 쓰고 위험한 정보 수집에 나선다."

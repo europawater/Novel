@@ -19,6 +19,7 @@
     - 매티스 페르소나 Ver. 3.3의 지침에 따라 다음 챕터 집필을 위한 준비를 시작합니다.
 
 ## 최근 변경 사항
+- 카이로스 페르소나 운영 프로토콜 대대적 업데이트 (2025-05-28): "공홈" 환경에서의 "카이로스-프라임 모드" 작동 방식 명확화 (카이로스가 내용 직접 작성 후 루코드 AI는 단순 적용), Writing Memory 참조 정확도 향상, 페르소나 행동 원칙 강화. 관련하여 `Kairos_Unified_Master_Architect_v1.0.md` 및 `progress.md` 파일 내용 동기화 완료.
 
 - **"재벌 3세는 용맥술사 (YONGMAEK01)" 제6화 최종 수정본 초고 작업 완료 및 Writing Memory 백업 완료**:
     - `Novel/novels/YONGMAEK01_재벌 3세는 용맥술사/chapters/YONGMAEK01_chapter_006_draft_v1.0.md` 경로에 저장 완료.

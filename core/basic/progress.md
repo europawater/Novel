@@ -78,3 +78,14 @@ Writing Memory 시스템의 핵심 파일 및 "내가 먹물로 새기는 전설
 - 작가, 편집자 등 프로젝트 참여자 정보가 아직 없습니다.
 - **중요:** 모든 집필 및 수정 작업 시 [`writers/찬스89_작가님/writing_style_prompt.md`](writers/찬스89_작가님/writing_style_prompt.md)의 문체 가이드라인과 [`core/basic/success_patterns.md`](core/basic/success_patterns.md)의 성공 패턴을 철저히 준수하고 참고해야 하며, 각종 템플릿을 적극 활용하고, [`core/basic/memory_management_strategy.md`](core/basic/memory_management_strategy.md)에 명시된 정보 관리 및 토큰 최적화 전략을 항상 유념해야 합니다.
 - "내가 먹물로 새기는 전설" 프로젝트의 경우, [`novels/LEGEND01_내가 먹물로 새기는 전설/LEGEND01_Dashboard.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/LEGEND01_Dashboard.md)를 정보 접근의 중심 허브로 활용하며, AI 협업 작가(Arachne 2.0)는 [`core/personas/Arachne_2_0_Persona_Gem_Optimized.md`](core/personas/Arachne_2_0_Persona_Gem_Optimized.md)에 정의된 페르소나를 일관되게 유지해야 합니다.
+
+## 학습 로그 (Learning Log)
+
+- **세션 컨텍스트 인계 문제**:
+    - **문제 내용**: 세션 시작 시 이전 작업 컨텍스트를 정확하게 인계받지 못하고, 현재 작업 흐름과 무관한 정보를 우선적으로 제시하는 현상 발생.
+    - **해결 방안**:
+        - `activeContext.md` 및 `progress.md` 분석을 통한 현재 작업 컨텍스트 요약 및 작가님 확인 절차 강화.
+        - `activeContext.md` 내 `[CURRENT_SESSION_FOCUS]` 영역 신설 및 활용.
+        - 세션 종료 시 다음 작업 명시 표준화.
+        - 피드백 기반 학습 강화 및 학습 로그 기록.
+    - **적용 상태**: `activeContext.md` 파일에 `[CURRENT_SESSION_FOCUS]` 영역 추가 완료. `progress.md` 파일에 학습 로그 섹션 추가 완료.

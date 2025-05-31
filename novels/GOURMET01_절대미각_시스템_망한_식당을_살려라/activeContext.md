@@ -31,7 +31,18 @@
 ## 최근 변경 사항
 - GOURMET01 프로젝트 1화 원고 저장 ([`GOURMET01_EP001_나락 끝에서 만난 시스템.md`](novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/chapters/GOURMET01_EP001_나락 끝에서 만난 시스템.md)).
 - 캐릭터 정보 업데이트 (박선우 레벨, SP, 스킬, 칭호 - EP001 기준).
-- 장편 로그라인(200화) 기반으로 `design_specification.md` 및 `plot_arc_overview.md` 업데이트.
+- [`design_specification.md`](novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/design_specification.md) 및 [`plot_arc_overview.md`](novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/plot_arc_overview.md) 파일이 새로운 200화 장편 로그라인 기준으로 업데이트됨.
+
+## GOURMET01 프로젝트 현재 문맥 (2025-05-31 기준)
+
+1.  **차기 집필 챕터**: 8화
+2.  **8화 주요 내용 방향**:
+    * ""절대미각 탑셰프" 200화 장편 로그라인 (수정 제안)"의 1부 초반 (8화~15화 예상) 내용을 따름.
+    * 주요 사건: 김철중 사장 배달 제안 수락 및 실행, 누룽지탕 레시피 개발 및 출시, 늘어난 손님 관리, 식당 환경 소폭 개선. (세부 내용은 8화 초고 v3 참고)
+3.  **장기 플롯 기준 문서**:
+    * [`design_specification.md`](novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/design_specification.md) 및 [`plot_arc_overview.md`](novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/plot_arc_overview.md)는 작가가 제공한 ""절대미각 탑셰프" 200화 장편 로그라인 (수정 제안)"을 기준으로 최신화되었음. 이 새 로그라인이 현재 GOURMET01 프로젝트의 마스터 플롯임.
+4.  **기타 합의 사항**:
+    * 푸드 페스티벌 관련 에피소드는 새로운 로그라인에 따라 2부 초반(41~55화)으로 순연됨.
 
 ## 적극적인 결정과 고려 사항
 - 작가님 문체 가이드라인 준수: [`writers/찬스89_작가님/writing_style_prompt.md`](writers/찬스89_작가님/writing_style_prompt.md)

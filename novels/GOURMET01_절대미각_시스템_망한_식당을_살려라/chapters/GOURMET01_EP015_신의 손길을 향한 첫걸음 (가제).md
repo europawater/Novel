@@ -9,6 +9,8 @@ tags:
   - status/editing
 date_created: 2025-06-03 23:22:00
 date_modified: 2025-06-04 00:01:00 # 수정 시간 업데이트
+setting_time: "" # 장면의 시간적 배경 (예: "현재", "새벽", "오후")
+setting_location: "" # 장면의 공간적 배경 (예: "선우의 키친", "시장")
 author: ["찬스", "카이로스"]
 version: 0.6 # 버전 업데이트
 word_count_target: 6000

@@ -27,6 +27,8 @@
     - `Novel/novels/YONGMAEK01_재벌 3세는 용맥술사/chapters/YONGMAEK01_chapter_006_draft_v1.0.md` 경로에 저장 완료.
 - **"재벌 3세는 용맥술사 (YONGMAEK01)" 프로젝트 1부 전체 로그라인('검은 용맥' 설정 반영) 업데이트 완료**:
     - `Novel/novels/YONGMAEK01_재벌 3세는 용맥술사/plot_arc_overview.md` 경로에 저장 완료.
+- **"절대미각 시스템, 망한 식당을 살려라" (GOURMET01) 제15화 초고 추가 완료**:
+   - `novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/chapters/GOURMET01_EP015_신의 손길을 향한 첫걸음 (가제).md` 파일 생성 및 내용 저장 완료.
 
 - **"재벌 3세는 용맥술사" (YONGMAEK01) 편집자 AI "용마루" 프롬프트 Ver 1.2 시스템 등록 완료**:
     - `novels/YONGMAEK01_재벌 3세는 용맥술사/prompts/EditorAI_Yongmaru_Prompt_v1.2.md` 파일 신규 생성 및 시스템에 정식 등록 완료.

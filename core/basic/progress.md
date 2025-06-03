@@ -58,6 +58,13 @@
 - **"재벌 3세는 용맥술사 (YONGMAEK01)" 제6화 최종 수정본 초고 작성 완료.**
 - **"재벌 3세는 용맥술사 (YONGMAEK01)" 1부 전체 로그라인 업데이트 ('검은 용맥' 설정 반영) 완료.**
 - **"절대미각 시스템, 망한 식당을 살려라" (GOURMET01) 제15화 초고 추가 완료.**
+- **🌌 라이팅 메모리 시스템 업그레이드 1단계 기능 구현 완료 (SCU, SNER, CKS 기초)**:
+    - **SCU (장면/아크 컨텍스트 단위화) 기본 프레임워크 구축 완료**:
+        - `novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/chapters/GOURMET01_EP015_신의 손길을 향한 첫걸음 (가제).md` 파일에 `setting_time` 및 `setting_location` 필드 추가 완료.
+    - **SNER (구조화된 내러티브 요소 저장소 - 캐릭터) 기본 구조화 완료**:
+        - `novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/character.md` 파일에 YAML 프론트매터 및 `character_id`, `project_id`, `appearance_summary`, `personality_keywords`, `core_goal_short`, `initial_cks_summary` 필드 추가 및 기존 내용 재구성 완료.
+    - **CKS (컨텍스트 기반 캐릭터 지식 상태) 추적 기초 구현 완료**:
+        - `Novel/core/templates/TPL_Lucord_CKS_Update_Prompt.md` 파일에 `information_acquired_scu_id` 및 `status_changed_scu_id` 필드 추가 완료.
 
 ## 남아 있는 작업
 

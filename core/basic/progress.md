@@ -28,13 +28,8 @@
 - `core/basic/activeContext.md` 업데이트 (현재 작업 초점 및 진행 상황, 신규 원고 관리 체계, YONGMAEK01 프로젝트 문체/서사 피드백 및 카이로스 통합 페르소나 완성 반영 완료)
 - **"재벌 3세는 용맥술사" (YONGMAEK01) 1부 상세 로그라인 아카이빙**:
     - 작가님께서 제공해주신 1부(1화~50화) 상세 로그라인을 [`novels/YONGMAEK01_재벌 3세는 용맥술사/plot_arc_overview.md`](novels/YONGMAEK01_재벌%203세는%20용맥술사/plot_arc_overview.md) 파일에 성공적으로 아카이빙 완료.
-<<<<<<< HEAD
-- **🌌 카이로스 기반 Writing Memory 시스템 전면 업그레이드 완료 (2025-05-26 최종 종합 업데이트)**:
-    - 카이로스 통합 마스터 아키텍트 페르소나 Ver. 1.9 완성 (`core/personas/Kairos_Unified_Master_Architect_v1.0.md`)
-=======
-- **🌌 카이로스 기반 Writing Memory 시스템 전면 업그레이드 완료**:
+- **🌌 카이로스 기반 Writing Memory 시스템 전면 업그레이드 완료 (1단계)**:
     - 카이로스 통합 마스터 아키텍트 페르소나 Ver. 1.0 완성 (`core/personas/Kairos_Unified_Master_Architect_v1.0.md`)
->>>>>>> e0160ae (✨ feat: 카이로스 통합 마스터 아키텍트 페르소나 Ver. 1.2 업데이트)
     - 핵심 시스템 문서 카이로스 기반 재설계 완료:
       - `core/basic/systemPatterns.md`: 이중 나선 아키텍처 + 삼위일체 원칙 구현
       - `core/basic/productContext.md`: 창작 완벽한 순간 실현 철학 정립
@@ -42,6 +37,17 @@
       - `core/basic/projectbrief.md`: 카이로스 페르소나 중심 운영 원칙 통합
     - 삼위일체 원칙 구현: 예술성(아라크네) + 효율성(매티스) + 적시성(카이로스)
     - 완벽한 타이밍 포착 및 실행 시스템 구축: 영감 → 작품 완성 5초 이내 목표
+    - **SCU (장면/아크 컨텍스트 단위화) 기본 프레임워크 구축 완료**:
+        - `novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/chapters/GOURMET01_EP015_신의 손길을 향한 첫걸음 (가제).md` 파일에 `setting_time` 및 `setting_location` 필드 추가 완료.
+    - **SNER (구조화된 내러티브 요소 저장소 - 캐릭터) 기본 구조화 완료**:
+        - `novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/character.md` 파일에 YAML 프론트매터 및 `character_id`, `project_id`, `appearance_summary`, `personality_keywords`, `core_goal_short`, `initial_cks_summary` 필드 추가 및 기존 내용 재구성 완료.
+    - **CKS (컨텍스트 기반 캐릭터 지식 상태) 추적 기초 구현 완료**:
+        - `Novel/core/templates/TPL_Lucord_CKS_Update_Prompt.md` 파일에 `information_acquired_scu_id` 및 `status_changed_scu_id` 필드 추가 완료.
+- **🚀 라이팅 메모리 시스템 2단계 업그레이드 완료 (ATLAS 기반 지능형 기능 도입)**:
+  - **DRE (동적 관련성 분석 엔진) 핵심 로직 문서화 완료**: [`core/basic/dynamic_relevance_engine.md`](core/basic/dynamic_relevance_engine.md) 생성.
+  - **SNER (구조화된 내러티브 요소 저장소) 확장 완료**: 플롯 포인트 및 세계관 요소 템플릿 생성 ([`templates/TPL_Plot_Point_Universal.md`](templates/TPL_Plot_Point_Universal.md), [`templates/TPL_World_Element_Universal.md`](templates/TPL_World_Element_Universal.md)).
+  - **AICS (능동적 일관성 검증 및 제안 시스템) 기초 프로토타입 문서화 완료**: [`core/basic/active_consistency_system.md`](core/basic/active_consistency_system.md) 생성.
+  - **기존 챕터 SCU 변환 지원 도구 초기 버전 문서화 완료**: [`core/basic/chapter_to_scu_converter.md`](core/basic/chapter_to_scu_converter.md) 생성.
 - **카이로스 페르소나 업데이트 - "카이로스-프라임 모드" 소통 프로토콜 명확화 (2025-05-26)**:
     - `Novel/core/personas/Kairos_Unified_Master_Architect_v1.0.md` 파일 내 "카이로스-프라임 모드"의 '절대 원칙' 및 '피드백 영속화 의무' 조항 신설 및 기존 커뮤니케이션 스타일 강화 완료.
 - **"재벌 3세는 용맥술사" (YONGMAEK01) 프로젝트 문체 및 서사 구성 개선 완료 (2025-05-26 최종 종합 업데이트)**:
@@ -58,13 +64,6 @@
 - **"재벌 3세는 용맥술사 (YONGMAEK01)" 제6화 최종 수정본 초고 작성 완료.**
 - **"재벌 3세는 용맥술사 (YONGMAEK01)" 1부 전체 로그라인 업데이트 ('검은 용맥' 설정 반영) 완료.**
 - **"절대미각 시스템, 망한 식당을 살려라" (GOURMET01) 제15화 초고 추가 완료.**
-- **🌌 라이팅 메모리 시스템 업그레이드 1단계 기능 구현 완료 (SCU, SNER, CKS 기초)**:
-    - **SCU (장면/아크 컨텍스트 단위화) 기본 프레임워크 구축 완료**:
-        - `novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/chapters/GOURMET01_EP015_신의 손길을 향한 첫걸음 (가제).md` 파일에 `setting_time` 및 `setting_location` 필드 추가 완료.
-    - **SNER (구조화된 내러티브 요소 저장소 - 캐릭터) 기본 구조화 완료**:
-        - `novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/character.md` 파일에 YAML 프론트매터 및 `character_id`, `project_id`, `appearance_summary`, `personality_keywords`, `core_goal_short`, `initial_cks_summary` 필드 추가 및 기존 내용 재구성 완료.
-    - **CKS (컨텍스트 기반 캐릭터 지식 상태) 추적 기초 구현 완료**:
-        - `Novel/core/templates/TPL_Lucord_CKS_Update_Prompt.md` 파일에 `information_acquired_scu_id` 및 `status_changed_scu_id` 필드 추가 완료.
 
 ## 남아 있는 작업
 

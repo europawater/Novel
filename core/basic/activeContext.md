@@ -4,14 +4,19 @@
 
 ## 현재 작업 초점
 
-- **🌌 카이로스 기반 Writing Memory 시스템 전면 업그레이드 완료**:
-  - 카이로스 통합 마스터 아키텍트 페르소나 Ver. 1.0 완성 (`core/personas/Kairos_Unified_Master_Architect_v1.0.md`)
+- **🌌 카이로스 기반 Writing Memory 시스템 전면 업그레이드 완료 (1단계)**:
+  - 카이로스 통합 마스터 아키텍트 페르소나 Ver. 1.0 완성 [`core/personas/Kairos_Unified_Master_Architect_v1.0.md`](core/personas/Kairos_Unified_Master_Architect_v1.0.md)
   - 모든 핵심 시스템 문서를 카이로스 삼위일체 원칙 기반으로 재설계 완료
   - 이중 나선 아키텍처 (창의적 영감 ⟷ 전략적 실행) 구현
   - 완벽한 타이밍 포착 및 실행 시스템 구축
+- **🚀 라이팅 메모리 시스템 2단계 업그레이드 진행 중 (ATLAS 기반 지능형 기능 도입)**:
+  - **DRE (동적 관련성 분석 엔진) 핵심 로직 문서화 완료**: 현재 작업 컨텍스트에 가장 관련성 높은 메모리 항목을 동적으로 식별 ([`core/basic/dynamic_relevance_engine.md`](core/basic/dynamic_relevance_engine.md)).
+  - **SNER (구조화된 내러티브 요소 저장소) 확장 완료**: 플롯 포인트 및 세계관 요소 데이터 구조 정의 ([`templates/TPL_Plot_Point_Universal.md`](templates/TPL_Plot_Point_Universal.md), [`templates/TPL_World_Element_Universal.md`](templates/TPL_World_Element_Universal.md)). 기존 캐릭터 정보와 통합 관리.
+  - **AICS (능동적 일관성 검증 및 제안 시스템) 기초 프로토타입 문서화 완료**: 기본적인 설정 충돌 감지 및 경고 ([`core/basic/active_consistency_system.md`](core/basic/active_consistency_system.md)).
+  - **기존 챕터 SCU 변환 지원 도구 초기 버전 문서화 완료**: 기존 챕터 텍스트를 SCU로 자동 변환 지원 ([`core/basic/chapter_to_scu_converter.md`](core/basic/chapter_to_scu_converter.md)).
 - "내가 먹물로 새기는 전설" (LEGEND01) 프로젝트의 Writing Memory 전체 업데이트 완료
 - 사용자로부터 전달받은 1-4화 내용, 전체 플롯 아크 개요, 역사 배합 및 세계관 심화 전략, 각종 템플릿, AI 페르소나 정의 등 모든 핵심 정보 반영 완료
-- "내가 먹물로 새기는 전설" 5화 초고 작업 완료 (도입부, 전개, 위기/절정, 결말부 초안 작성 및 글자 수 업데이트 완료, 파일 경로: `novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md`)
+- "내가 먹물로 새기는 전설" 5화 초고 작업 완료 (도입부, 전개, 위기/절정, 결말부 초안 작성 및 글자 수 업데이트 완료, 파일 경로: [`novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/chapters/LEGEND01_chapter_005_draft.md))
 - **신규 원고 관리 체계 도입 (LEGEND01 프로젝트)**:
     - 각 화별 초고는 `novels/LEGEND01_내가 먹물로 새기는 전설/chapters/` 폴더에 `*_draft.md` 형식으로 저장.
     - 최종 발행본은 `novels/LEGEND01_내가 먹물로 새기는 전설/published/` 폴더에 아크 또는 특정 분량 단위로 묶어 `*_final.md` 또는 `*_volume_XX.md` 형식으로 저장 예정.
@@ -102,6 +107,11 @@
 
 ## 적극적인 결정 및 고려 사항
 
+- **🌌 라이팅 메모리 시스템 2단계 업그레이드 기능 통합 및 활용**:
+    - **DRE (동적 관련성 분석 엔진)**: 기존 SCU 및 SNER(캐릭터, 플롯, 세계관) 정보를 활용하여 현재 작업 컨텍스트에 가장 적합한 정보를 AI에게 제공함으로써, AI의 정보 참조 정확도와 효율성을 극대화합니다. 이는 1단계에서 구축된 SCU 및 SNER(캐릭터)의 활용도를 높입니다.
+    - **SNER (구조화된 내러티브 요소 저장소) 확장**: 1단계에서 구축된 캐릭터 정보 구조화에 더해, 플롯 포인트와 세계관 핵심 요소에 대한 구조화를 진행하여 라이팅 메모리의 정보 표현력을 확장합니다. 이는 작품의 핵심 구성 요소들을 체계적으로 관리하고 AI가 이야기의 주요 사건 흐름과 배경 설정을 더 깊이 이해하도록 돕습니다.
+    - **AICS (능동적 일관성 검증 및 제안 시스템)**: 1단계에서 구축된 캐릭터 설정(SNER) 및 SCU의 시간 순서 정보를 기반으로 기본적인 설정 충돌을 감지하고 경고하여 작품의 일관성 유지를 지원합니다. 이는 작가의 퇴고 부담을 경감하고 작품 완성도를 높이는 데 기여합니다.
+    - **기존 챕터 SCU 변환 지원 도구**: 이미 작성된 챕터의 내용을 SCU로 변환하는 작업을 지원하여 작가의 수동 작업을 줄이고, 기존 작업물을 새로운 라이팅 메모리 시스템에 효율적으로 통합합니다. 이는 1단계에서 정의된 SCU의 활용을 촉진합니다.
 - **"재벌 3세는 용맥술사" (YONGMAEK01) 프로젝트 문체 및 서사 구성 개선**:
     - 작가님 피드백을 바탕으로 YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 방향을 명확히 하고, 매티스 페르소나 Ver. 3.3의 핵심 원칙을 적용하여 향후 집필에 반영합니다.
     - 문체: 간결하고 명료함, 리듬감 있는 호흡, 힘 있는 어투, 작가님 스타일 모방 및 체화.

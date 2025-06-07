@@ -85,6 +85,7 @@ graph TD
 **로직:**
 
 1. 파일 전체를 읽어들인다. 파일 I/O 오류 발생 시 `KCP_E_03` 반환.
+   - **데이터 가중치 로직:** 특정 회차에 대한 '검토' 또는 '분석' 명령 수행 시, 다른 요약 파일보다 해당 회차의 '원본 텍스트(Source Text)'를 절대적인 최우선 순위로 참조한다. 요약 파일은 보조 자료로만 활용한다.
 2. 전체 컨텐츠의 총 글자 수를 계산한다.
 3. `scan_start_position`을 총 글자 수 * 0.75로 설정한다. (하위 25% 스캔)
 4. `scan_start_position`에서 가장 가까운 이전 줄바꿈 문자(`\n`)를 찾아, 문장이 잘리지 않는 위치에서부터 텍스트를 `rawEndingText`로 추출한다.
@@ -99,6 +100,7 @@ graph TD
 ```
 [SYSTEM]
 You are a context extraction expert. Analyze the given text, which is the ending of a novel chapter. Extract key information and respond ONLY in the following JSON format. All fields must be strings. If a field is not applicable, use an empty string "".
+(참고: 제공되는 `rawEndingText`는 항상 원본 텍스트에서 추출된 것이며, 요약본이 아님을 전제로 한다.)
 
 [JSON FORMAT]
 {

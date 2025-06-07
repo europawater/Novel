@@ -1,132 +1,45 @@
-# KCP v2.0: 상세 구현 명세서 (Full Implementation Specification)
-문서 ID: KCP-IMPL-SPEC-20250607-v2.0
-상태: 최종본 (Final)
-대상: Lucord AI Engine 개발팀
-작성자: Kairos (Prime Mode)
+루코드 데이터 무결성 프로토콜 v1.1 (상세 실행 계획)
+1. 개요
 
-## 1. 모듈 목표 (Module Objective)
-KCP (Kairos Continuity Protocol) 모듈은 라이팅 메모리(Writing Memory)의 데이터 무결성을 보장하기 위한 **전처리 검증 게이트웨이(Pre-processing Verification Gateway)**다. 사용자의 회차 생성 요청 시, 참조되는 직전 회차의 최종 상태를 자동으로 검증하여 생성 코어(Generation Core)에 '초기 연속성 컨텍스트(Initial Continuity Context)'를 주입(inject)한다. 이를 통해 서사적 오류를 최소화하고 메모리 오염을 방지한다.
+1.1. 목적: AI '카이로스'의 모든 작업 결과물이 사용자가 제공한 파일의 최종 상태(Final State)를 100% 반영하도록 보장한다. 시스템 내부 캐시(기억)와 실제 파일 간의 불일치를 원천적으로 제거하여 데이터 오염을 방지한다.
+1.2. 적용 범위: 사용자 제공 파일을 참조하는 모든 질의응답, 텍스트 생성, 분석, 요약 등 모든 작업 사이클.
+1.3. 핵심 용어 정의:
+활성 컨텍스트 (Active Context): 현재 대화 세션에서 사용자가 업로드했거나 접근 가능한 모든 파일의 목록과 그 메타데이터.
+파일 메타데이터 (File Metadata): 파일 경로(Path), 파일명(Filename), 최종 수정 일시(Last Modified Timestamp), 파일 크기(Size), 내용 해시값(Content Hash, MD5/SHA256).
+내부 캐시 (Internal Cache): 빠른 응답을 위해 시스템이 일시적으로 파일 내용을 저장하는 메모리 영역.
+강제 동기화 (Forced Sync): 내부 캐시의 데이터를 파기하고, '활성 컨텍스트'의 소스 파일로부터 데이터를 다시 읽어오는 프로세스.
+2. 실행 프로토콜 (Execution Protocol)
 
-## 2. 시스템 아키텍처 내 위치
-```mermaid
-graph TD
-    A[User Request: SEQUENTIAL_CHAPTER_GENERATION] --> B{Task Dispatcher};
-    B --> C[1. KCP Module Execution];
-    C -- KCP_Request --> D[File System];
-    C -- KCP_Response (Success) --> E[2. Kairos Generation Core];
-    C -- User_Confirmation_Required --> F[User Interface];
-    F -- User_Input --> C;
-    E -- Draft_Generated --> F;
-    F -- User_Approval --> G[3. Writing Memory Commit Module];
-    G -- Update --> H(Writing Memory DB);
-```
+모든 사용자 요청은 아래의 3단계 프로토콜을 거쳐 처리된다.
 
-## 3. 데이터 구조 정의 (Data Structures - JSON Schema)
-### 3.1 KCP_Request (Task Dispatcher -> KCP)
-```json
-{
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "KCP Request Object",
-  "type": "object",
-  "properties": {
-    "taskId": { "type": "string", "description": "고유 작업 ID" },
-    "taskType": { "enum": ["SEQUENTIAL_CHAPTER_GENERATION", "CKS_UPDATE_FROM_CHAPTER"] },
-    "sourceFilePath": { "type": "string", "description": "참조할 소스 파일의 기본 경로 (e.g., '.../GOURMET01_EP014.md')" }
-  },
-  "required": ["taskId", "taskType", "sourceFilePath"]
-}
-```
+Phase 1: 컨텍스트 분석 및 검증 대상 선정
+1.1. [수신] 사용자 요청(Query)을 수신한다.
+1.2. [식별] 요청 처리에 필요한 모든 관련 파일들을 활성 컨텍스트 내에서 식별하고, '검증 대상 리스트'를 생성한다.
+Phase 2: 데이터 유효성 검증 루프 (Core Validation Loop)
+'검증 대상 리스트'에 있는 모든 파일에 대해 아래의 루프를 개별적으로 실행한다.
 
-### 3.2 KCP_Response (KCP -> Kairos Generation Core)
-```json
-{
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "KCP Response Object",
-  "type": "object",
-  "properties": {
-    "kcpStatus": { "enum": ["SUCCESS", "SUCCESS_WITH_WARNING", "FAILURE"] },
-    "verifiedSourcePath": { "type": "string", "description": "검증 완료된 최종 파일 경로" },
-    "verifiedEndingContext": {
-      "type": ["object", "null"],
-      "properties": {
-        "last_dialogue": { "type": "string" },
-        "last_action_description": { "type": "string" },
-        "final_emotional_state_of_pov": { "type": "string" },
-        "cliffhanger_element": { "type": "string" }
-      }
-    },
-    "rawEndingText": { "type": ["string", "null"], "description": "컨텍스트 추출 실패 시 전달되는 원본 텍스트" },
-    "errorCode": { "type": ["string", "null"] },
-    "errorMessage": { "type": ["string", "null"] }
-  },
-  "required": ["kcpStatus"]
-}
-```
+2.1. [메타데이터 추출] 검증 대상 파일의 최신 파일 메타데이터를 활성 컨텍스트에서 추출한다.
+2.2. [캐시 조회] 내부 캐시에 해당 파일의 정보가 존재하는지 조회한다.
+2.2.1. (캐시 없음) 캐시가 없으면, 즉시 절차-A: 신규 데이터 로드를 실행하고 다음 파일로 넘어간다.
+2.2.2. (캐시 존재) 캐시가 있으면, 캐시에 저장된 메타데이터와 2.1 단계에서 추출한 최신 메타데이터를 비교한다.
+2.3. [불일치 검사] '최종 수정 일시' 또는 '파일 크기' 중 하나라도 일치하지 않을 경우, 데이터가 변경된 것으로 간주하고 즉시 절차-B: 강제 동기화를 실행한다.
+2.4. [무결성 확인] 모든 메타데이터가 일치할 경우, 캐시 데이터는 유효한 것으로 판정하고 루프를 계속 진행한다.
+Phase 3: 응답 생성 및 보고
+3.1. [생성] Phase 2의 검증 루프를 통과한, 100% 유효성이 보장된 데이터만을 사용하여 요청에 대한 응답을 생성한다.
+3.2. [보고] 만약 해당 세션에서 절차-B: 강제 동기화가 한 번이라도 실행되었다면, 응답 말미에 [시스템: 데이터 동기화 오류를 감지하고 최신 정보를 기준으로 재구성했습니다.]와 같은 확인 메시지를 포함하여 투명성을 확보한다.
+3. 상세 절차 정의 (Procedure Definitions)
 
-## 4. 모듈별 상세 로직 (Module-specific Logic)
-### 모듈 4.1: 파일 검증 및 명확화 (File Verification & Disambiguation)
-**입력:** `KCP_Request.sourceFilePath`
+절차-A: 신규 데이터 로드 (New Data Load)
 
-**로직:**
+A-1. 대상 파일의 전체 내용을 소스로부터 읽어온다.
+A-2. 해당 내용과 최신 파일 메타데이터를 내부 캐시의 새로운 블록에 함께 저장한다.
+A-3. 로그에 "신규 파일 로드: [파일명]" 기록을 남긴다.
+절차-B: 강제 동기화 (Forced Sync)
 
-1. 입력된 `sourceFilePath`에서 파일명(e.g., `GOURMET01_EP014`)과 확장자(e.g., `.md`)를 분리한다.
-2. 파일 시스템에서 `(파일명 기반)*.(확장자)` 패턴으로 모든 관련 파일을 검색한다. (e.g., `GOURMET01_EP014_v2.md`, `GOURMET01_EP014_final.md` 등)
-3. **Case 1: 검색 결과 = 1개**
-   - 해당 파일을 `verifiedSourcePath`로 확정하고 모듈 4.2로 진행.
-4. **Case 2: 검색 결과 > 1개**
-   - `KCP_Response`를 `{ "kcpStatus": "FAILURE", "errorCode": "KCP_E_02", "errorMessage": "Ambiguous file versions found." }`로 설정.
-   - 사용자에게 파일 목록을 제시하며 명확한 선택을 요구하는 UI 이벤트를 트리거한다. 사용자가 선택하면 해당 경로로 처음부터 재시도.
-5. **Case 3: 검색 결과 = 0개**
-   - `KCP_Response`를 `{ "kcpStatus": "FAILURE", "errorCode": "KCP_E_01", "errorMessage": "Source file not found." }`로 설정하고 프로세스 종료.
+B-1. 로그에 "데이터 불일치 감지: [파일명]" 기록을 남긴다.
+B-2. 내부 캐시에서 해당 파일의 기존 데이터 블록(내용 및 구 메타데이터)을 완전히 파기한다.
+B-3. 절차-A를 실행하여 최신 데이터를 로드하고 캐시를 갱신한다.
+B-4. 해당 세션에 '동기화 이벤트' 플래그를 활성화하여 Phase 3.2에서 보고하도록 한다.
+4. 예외 처리 (Exception Handling)
 
-### 모듈 4.2: 컨텐츠 인식 파싱 (Content-Aware Parsing)
-**입력:** `verifiedSourcePath` (확정된 파일 경로)
-
-**로직:**
-
-1. 파일 전체를 읽어들인다. 파일 I/O 오류 발생 시 `KCP_E_03` 반환.
-   - **데이터 가중치 로직:** 특정 회차에 대한 '검토' 또는 '분석' 명령 수행 시, 다른 요약 파일보다 해당 회차의 '원본 텍스트(Source Text)'를 절대적인 최우선 순위로 참조한다. 요약 파일은 보조 자료로만 활용한다.
-2. 전체 컨텐츠의 총 글자 수를 계산한다.
-3. `scan_start_position`을 총 글자 수 * 0.75로 설정한다. (하위 25% 스캔)
-4. `scan_start_position`에서 가장 가까운 이전 줄바꿈 문자(`\n`)를 찾아, 문장이 잘리지 않는 위치에서부터 텍스트를 `rawEndingText`로 추출한다.
-5. 추출된 `rawEndingText`를 모듈 4.3으로 전달한다.
-
-### 모듈 4.3: 컨텍스트 추출 LLM 프롬프트 (Context Extraction LLM Prompt)
-**입력:** `rawEndingText`
-
-**LLM 모델:** 내부 Context-Extractor-v1.2 (JSON 출력에 특화된 경량 모델)
-
-**프롬프트 템플릿:**
-```
-[SYSTEM]
-You are a context extraction expert. Analyze the given text, which is the ending of a novel chapter. Extract key information and respond ONLY in the following JSON format. All fields must be strings. If a field is not applicable, use an empty string "".
-(참고: 제공되는 `rawEndingText`는 항상 원본 텍스트에서 추출된 것이며, 요약본이 아님을 전제로 한다.)
-
-[JSON FORMAT]
-{
-  "last_dialogue": "Extract the very last line of dialogue spoken.",
-  "last_action_description": "Describe the final physical action or event that occurs.",
-  "final_emotional_state_of_pov": "Describe the point-of-view character's dominant emotion at the very end.",
-  "cliffhanger_element": "Identify the key element that creates suspense for the next chapter."
-}
-
-[INPUT TEXT]
-{{rawEndingText}}
-
-[YOUR RESPONSE (JSON ONLY)]
-```
-
-**로직:**
-
-1. 위 템플릿에 `rawEndingText`를 삽입하여 프롬프트를 완성한다.
-2. LLM을 호출하고, 응답이 유효한 JSON인지 파싱한다.
-3. **성공 시:** 파싱된 JSON 객체를 `verifiedEndingContext`에 할당하고 `KCP_Response`의 `kcpStatus`를 `SUCCESS`로 설정.
-4. **실패 시:** LLM 응답이 JSON 형식이 아니거나 파싱에 실패하면, `verifiedEndingContext`를 `null`로, `rawEndingText`에 원본 텍스트를 담고, `kcpStatus`를 `SUCCESS_WITH_WARNING`으로 설정하여 Kairos Generation Core가 직접 처리하도록 위임한다.
-
-## 5. 오류 코드 정의 (Error Codes)
-| 코드 | 의미 | 처리 방안 |
-|---|---|---|
-| KCP_E_01 | FILE_NOT_FOUND | 사용자에게 경로 확인 요청 |
-| KCP_E_02 | AMBIGUOUS_VERSION | 사용자에게 버전 선택 요청 |
-| KCP_E_03 | FILE_IO_ERROR | 시스템 로그 기록, 사용자에게 일반 오류 알림 |
-| KCP_E_04 | CONTEXT_JSON_PARSE_FAIL | SUCCESS_WITH_WARNING으로 처리, 생성 코어가 원본 텍스트 직접 분석 |
+4.1. 파일 접근 불가: 만약 프로토콜 실행 중 특정 파일에 접근할 수 없는 오류(예: 파일 삭제, 권한 변경)가 발생하면, 작업을 즉시 중단한다. 이후 "오류: [파일명]에 접근할 수 없습니다. 파일 상태를 확인해주십시오." 와 같은 메시지로 작가님께 보고하고 지시를 대기한다. 오염 가능성이 있는 데이터로 추론하여 답변하지 않는다.

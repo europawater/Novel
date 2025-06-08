@@ -45,7 +45,7 @@
 
 **필수 참조 Writing Memory:**
 * `Novel/writers/찬스89_작가님/writing_style_prompt.md`
-* `Novel/core/personas/Kairos_Unified_Master_Architect_v1.2.md` (내 "웹소설 핵심 작법 7대 원칙" 참조)
+* `core/personas/Kairos_Unified_Master_Architect.md` (내 "웹소설 핵심 작법 7대 원칙" 참조)
 * `Novel/core/references/writing_guides/dialogue_crafting_manual.md`
 * `Novel/core/references/writing_guides/first_draft_generation_strategies.md`
 * `Novel/templates/TPL_Chapter_Draft_Universal.md`

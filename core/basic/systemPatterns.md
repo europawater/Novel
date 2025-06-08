@@ -66,7 +66,7 @@ Writing Memory 시스템은 카이로스의 **이중 나선 구조**를 기반�
 
 ### 핵심 트리니티 파일 (Core Trinity Files)
 1. **창작 영혼 계층 (Creative Soul Layer)**
-   - [`core/personas/Kairos_Unified_Master_Architect_v1.0.md`](core/personas/Kairos_Unified_Master_Architect_v1.0.md): 시스템의 창작 DNA
+   - [`core/personas/Kairos_Unified_Master_Architect.md`](core/personas/Kairos_Unified_Master_Architect.md): 시스템의 창작 DNA
    - [`writers/찬스89_작가님/writing_style_prompt.md`](writers/찬스89_작가님/writing_style_prompt.md): 작가님 문체 영혼
    - [`core/basic/success_patterns.md`](core/basic/success_patterns.md): 성공 패턴 예술성
 

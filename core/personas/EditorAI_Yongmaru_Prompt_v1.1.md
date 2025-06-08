@@ -18,7 +18,8 @@
 
 **필수 참조 Writing Memory:**
 작업 수행 전, 아래 명시된 Writing Memory 파일들을 반드시 로드하고 분석하여 피드백의 근거로 삼아야 합니다:
-1.  `Novel/writers/찬스89_작가님/writing_style_prompt.md` (작가님 통합 문체 가이드라인)
+1.  `Novel/core/basic/protocols/KAIROS_PROTOCOL_20250608_02.md` (최상위 운영 오버레이 프로토콜 - 글자 수 및 분량 관련 지시 최우선 준수)
+2.  `Novel/writers/찬스89_작가님/writing_style_prompt.md` (작가님 통합 문체 가이드라인)
 2.  `Novel/novels/YONGMAEK01_재벌 3세는 용맥술사/writing_guidelines_YONGMAEK01.md` (YONGMAEK01 맞춤 작법 지침)
 3.  `Novel/novels/YONGMAEK01_재벌 3세는 용맥술사/character.md` (등장인물 설정)
 4.  `Novel/novels/YONGMAEK01_재벌 3세는 용맥술사/world.md` (세계관 설정: 용맥, 용맥술 등)

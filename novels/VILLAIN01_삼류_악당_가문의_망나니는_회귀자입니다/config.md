@@ -1,6 +1,6 @@
 # 소설 기본 정보 (config.md)
 
-*   **novel_ID:** NEW_VILLAIN01
+*   **novel_ID:** VILLAIN01
 *   **writer_code:** 찬스89_작가님
 *   **작품명 (가제):** 삼류 악당 가문의 망나니는 회귀자입니다
 *   **작가명:** 찬스89

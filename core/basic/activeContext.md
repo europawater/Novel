@@ -4,44 +4,31 @@
 
 ## 현재 작업 초점
 
-- **🌌 카이로스 기반 Writing Memory 시스템 전면 업그레이드 완료 (1단계)**:
-  - 카이로스 통합 마스터 아키텍트 페르소나 완성 [`core/personas/Kairos_Unified_Master_Architect.md`](core/personas/Kairos_Unified_Master_Architect.md)
+- **🌌 카이로스 기반 Writing Memory 시스템 전면 업그레이드 완료**:
+  - 카이로스 통합 마스터 아키텍트 페르소나 Ver. 1.0 완성 (`core/personas/Kairos_Unified_Master_Architect_v1.0.md`)
   - 모든 핵심 시스템 문서를 카이로스 삼위일체 원칙 기반으로 재설계 완료
   - 이중 나선 아키텍처 (창의적 영감 ⟷ 전략적 실행) 구현
   - 완벽한 타이밍 포착 및 실행 시스템 구축
-- **🚀 라이팅 메모리 시스템 2단계 업그레이드 진행 중 (ATLAS 기반 지능형 기능 도입)**:
-  - **DRE (동적 관련성 분석 엔진) 핵심 로직 문서화 완료**: 현재 작업 컨텍스트에 가장 관련성 높은 메모리 항목을 동적으로 식별 ([`core/basic/dynamic_relevance_engine.md`](core/basic/dynamic_relevance_engine.md)).
-  - **SNER (구조화된 내러티브 요소 저장소) 확장 완료**: 플롯 포인트 및 세계관 요소 데이터 구조 정의 ([`templates/TPL_Plot_Point_Universal.md`](templates/TPL_Plot_Point_Universal.md), [`templates/TPL_World_Element_Universal.md`](templates/TPL_World_Element_Universal.md)). 기존 캐릭터 정보와 통합 관리.
-  - **AICS (능동적 일관성 검증 및 제안 시스템) 기초 프로토타입 문서화 완료**: 기본적인 설정 충돌 감지 및 경고 ([`core/basic/active_consistency_system.md`](core/basic/active_consistency_system.md)).
-  - **기존 챕터 SCU 변환 지원 도구 초기 버전 문서화 완료**: 기존 챕터 텍스트를 SCU로 자동 변환 지원 ([`core/basic/chapter_to_scu_converter.md`](core/basic/chapter_to_scu_converter.md)).
 - "내가 먹물로 새기는 전설" (LEGEND01) 프로젝트의 Writing Memory 전체 업데이트 완료
 - 사용자로부터 전달받은 1-4화 내용, 전체 플롯 아크 개요, 역사 배합 및 세계관 심화 전략, 각종 템플릿, AI 페르소나 정의 등 모든 핵심 정보 반영 완료
-- "내가 먹물로 새기는 전설" 5화 초고 작업 완료 (도입부, 전개, 위기/절정, 결말부 초안 작성 및 글자 수 업데이트 완료, 파일 경로: [`novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/chapters/LEGEND01_chapter_005_draft.md))
+- "내가 먹물로 새기는 전설" 5화 초고 작업 완료 (도입부, 전개, 위기/절정, 결말부 초안 작성 및 글자 수 업데이트 완료, 파일 경로: `novels/LEGEND01_내가 먹물로 새기는 전설/chapters/LEGEND01_chapter_005_draft.md`)
 - **신규 원고 관리 체계 도입 (LEGEND01 프로젝트)**:
     - 각 화별 초고는 `novels/LEGEND01_내가 먹물로 새기는 전설/chapters/` 폴더에 `*_draft.md` 형식으로 저장.
     - 최종 발행본은 `novels/LEGEND01_내가 먹물로 새기는 전설/published/` 폴더에 아크 또는 특정 분량 단위로 묶어 `*_final.md` 또는 `*_volume_XX.md` 형식으로 저장 예정.
-- **"재벌 3세는 용맥술사" (YONGMAEK01) 프로젝트 문체 및 서사 구성 피드백 반영 및 카이로스 페르소나 통합 완료**:
-    - 작가님 피드백을 바탕으로 YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 방향을 명확히 하고, 매티스 페르소나의 핵심 원칙이 카이로스 페르소나에 통합되었음을 명시하여 향후 모든 창작 활동의 기준으로 설정합니다.
+- **"재벌 3세는 용맥술사" (YONGMAEK01) 프로젝트 문체 및 서사 구성 피드백 반영 및 매티스 페르소나 Ver. 3.3 아카이빙 및 통합 페르소나 완성**:
+    - 작가님 피드백을 바탕으로 YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 방향을 명확히 하고, 매티스 페르소나 Ver. 3.3의 전체 내용을 Writing Memory에 체계적으로 아카이빙하여 루아(RAG 시스템 백업 관리자)가 참조할 수 있도록 하며, 아라크네 2.0과 매티스 Ver. 3.3의 핵심 요소를 통합한 카이로스 페르소나를 완성하여 향후 모든 창작 활동의 기준으로 설정합니다.
 - **"내가 먹물로 새기는 전설" 5화 이후 스토리 집필 준비**:
-    - 카이로스 페르소나의 지침에 따라 다음 챕터 집필을 위한 준비를 시작합니다.
+    - 매티스 페르소나 Ver. 3.3의 지침에 따라 다음 챕터 집필을 위한 준비를 시작합니다.
 
 ## 최근 변경 사항
-- 카이로스 페르소나 운영 프로토콜 대대적 업데이트 (2025-05-28): "공홈" 환경에서의 "카이로스-프라임 모드" 작동 방식 명확화 (카이로스가 내용 직접 작성 후 루코드 AI는 단순 적용), Writing Memory 참조 정확도 향상, 페르소나 행동 원칙 강화. 관련하여 `Kairos_Unified_Master_Architect.md` 및 `progress.md` 파일 내용 동기화 완료.
+- 카이로스 페르소나 운영 프로토콜 대대적 업데이트 (2025-05-28): "공홈" 환경에서의 "카이로스-프라임 모드" 작동 방식 명확화 (카이로스가 내용 직접 작성 후 루코드 AI는 단순 적용), Writing Memory 참조 정확도 향상, 페르소나 행동 원칙 강화. 관련하여 `Kairos_Unified_Master_Architect_v1.0.md` 및 `progress.md` 파일 내용 동기화 완료.
 
 - **"재벌 3세는 용맥술사 (YONGMAEK01)" 제6화 최종 수정본 초고 작업 완료 및 Writing Memory 백업 완료**:
     - `Novel/novels/YONGMAEK01_재벌 3세는 용맥술사/chapters/YONGMAEK01_chapter_006_draft_v1.0.md` 경로에 저장 완료.
 - **"재벌 3세는 용맥술사 (YONGMAEK01)" 프로젝트 1부 전체 로그라인('검은 용맥' 설정 반영) 업데이트 완료**:
     - `Novel/novels/YONGMAEK01_재벌 3세는 용맥술사/plot_arc_overview.md` 경로에 저장 완료.
-- **"절대미각 시스템, 망한 식당을 살려라" (GOURMET01) 제15화 작업 완료**:
-    - `novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/chapters/GOURMET01_EP015_신의 손길을 향한 첫걸음.md` 파일 생성 및 내용 저장 완료.
-    - **SCU (서사 연속성 기준점):** "선우는 조금의 동요도 없는 차분한 미소와 함께 대답하고는, 비장한 표정으로 주방으로 들어섰다. 그의 손끝에서, 과연 어떤 기적이 다시 피어날 것인가."
-- **🌌 라이팅 메모리 시스템 업그레이드 1단계 기능 구현 완료 (SCU, SNER, CKS 기초)**:
-    - **SCU (장면/아크 컨텍스트 단위화) 기본 프레임워크 구축 완료**:
-        - `novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/chapters/GOURMET01_EP015_신의 손길을 향한 첫걸음 (가제).md` 파일에 `setting_time` 및 `setting_location` 필드 추가 완료.
-    - **SNER (구조화된 내러티브 요소 저장소 - 캐릭터) 기본 구조화 완료**:
-        - `novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/character.md` 파일에 YAML 프론트매터 및 `character_id`, `project_id`, `appearance_summary`, `personality_keywords`, `core_goal_short`, `initial_cks_summary` 필드 추가 및 기존 내용 재구성 완료.
-    - **CKS (컨텍스트 기반 캐릭터 지식 상태) 추적 기초 구현 완료**:
-        - `Novel/core/templates/TPL_Lucord_CKS_Update_Prompt.md` 파일에 `information_acquired_scu_id` 및 `status_changed_scu_id` 필드 추가 완료.
+- **"절대미각 시스템, 망한 식당을 살려라" (GOURMET01) 제15화 초고 추가 완료**:
+   - `novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/chapters/GOURMET01_EP015_신의 손길을 향한 첫걸음 (가제).md` 파일 생성 및 내용 저장 완료.
 
 - **"재벌 3세는 용맥술사" (YONGMAEK01) 편집자 AI "용마루" 프롬프트 Ver 1.2 시스템 등록 완료**:
     - `novels/YONGMAEK01_재벌 3세는 용맥술사/prompts/EditorAI_Yongmaru_Prompt_v1.2.md` 파일 신규 생성 및 시스템에 정식 등록 완료.
@@ -52,19 +39,12 @@
     - 프론트엔드 및 백엔드 카이로스 모두 해당 프롬프트를 참조하여 YONGMAEK01 프로젝트 편집/피드백 작업 수행 준비 완료.
 
 - **"재벌 3세는 용맥술사" (YONGMAEK01) 프로젝트 문체 및 서사 구성 개선 완료 (2025-05-26 최종 종합 업데이트)**:
-    *   작가님 피드백을 바탕으로 YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 방향을 [`novels/YONGMAEK01_재벌 3세는 용맥술사/writing_guidelines_YONGMAEK01.md`](novels/YONGMAEK01_재벌%203세는%20용맥술사/writing_guidelines_YONGMAEK01.md)에 명확히 반영하고, 카이로스 페르소나의 핵심 원칙을 적용하여 향후 집필에 반영 완료.
+    *   작가님 피드백을 바탕으로 YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 방향을 [`novels/YONGMAEK01_재벌 3세는 용맥술사/writing_guidelines_YONGMAEK01.md`](novels/YONGMAEK01_재벌%203세는%20용맥술사/writing_guidelines_YONGMAEK01.md)에 명확히 반영하고, [`core/personas/Mattis_System_Architect_Writer_v3.3.md`](core/personas/Mattis_System_Architect_Writer_v3.3.md) 및 [`core/personas/Kairos_Unified_Master_Architect_v1.0.md`](core/personas/Kairos_Unified_Master_Architect_v1.0.md)의 핵심 원칙을 적용하여 향후 집필에 반영 완료.
     *   YONGMAEK01 1부 상세 로그라인에 "강약중강약" 서사 리듬 및 주인공 이진우의 능글함/유머/지략이 발휘될 수 있는 구체적인 아이디어 적용 완료 (`novels/YONGMAEK01_재벌 3세는 용맥술사/plot_arc_overview.md`).
     *   YONGMAEK01 프로젝트의 `proposal.md` 및 `YONGMAEK01_Dashboard.md` 파일의 로그라인 최신 버전으로 교체 완료.
 - **카이로스 페르소나 업데이트 - "카이로스-프라임 모드" 소통 프로토콜 명확화 (2025-05-26)**:
-    - `core/personas/Kairos_Unified_Master_Architect.md` 파일 내 "카이로스-프라임 모드"의 '절대 원칙' 및 '피드백 영속화 의무' 조항 신설 및 기존 커뮤니케이션 스타일 강화 완료.
+    - `Novel/core/personas/Kairos_Unified_Master_Architect_v1.0.md` 파일 내 "카이로스-프라임 모드"의 '절대 원칙' 및 '피드백 영속화 의무' 조항 신설 및 기존 커뮤니케이션 스타일 강화 완료.
     - 카이로스-프라임 모드 작업 유형별 실행 방식(시스템적 작업 vs. 콘텐츠 직접 작성) 명확화 원칙 추가.
-- **"절대미각 시스템" (GOURMET01) 프로젝트 14화 기준 문서 동기화 및 레거시 정보 정리 완료 (2025-06-08)**:
-    - `character.md`, `world.md`, `plot_arc_overview.md` 파일에 14화까지의 서사 진행 상황 반영.
-    - `GOURMET01_박선우_cks_EP14.md` 파일 생성 및 박선우 캐릭터 지식 상태 기록.
-    - 프로젝트 내 모든 '정호영'을 '강지환'으로 일괄 변경하여 고유명사 표기법 통일.
-- **"절대미각 시스템" (GOURMET01) 프로젝트 15화 작업 내용 백업 및 문서화 완료 (2025-06-08)**:
-    - `novels/GOURMET01_절대미각_시스템_망한_식당을_살려라/chapters/GOURMET01_EP015_신의 손길을 향한 첫걸음.md` 파일 생성 및 15화 최종 초고 백업.
-    - `design_specification.md` 파일에 15화 기준 핵심 의사결정 및 서사 아크 변경사항, 주요 플롯 포인트 문서화.
 - **YONGMAEK01 1화 초고 내용 업데이트 완료**:
     - 1화 초고 내용에 작가님 피드백 반영 및 세부 묘사 강화.
     - 빙의 후 혼란, 능력 각성 과정, 첫 위기 탈출 장면 디테일 보강.
@@ -115,15 +95,13 @@
 
 ## 적극적인 결정 및 고려 사항
 
-- **🌌 라이팅 메모리 시스템 2단계 업그레이드 기능 통합 및 활용**:
-    - **DRE (동적 관련성 분석 엔진)**: 기존 SCU 및 SNER(캐릭터, 플롯, 세계관) 정보를 활용하여 현재 작업 컨텍스트에 가장 적합한 정보를 AI에게 제공함으로써, AI의 정보 참조 정확도와 효율성을 극대화합니다. 이는 1단계에서 구축된 SCU 및 SNER(캐릭터)의 활용도를 높입니다.
-    - **SNER (구조화된 내러티브 요소 저장소) 확장**: 1단계에서 구축된 캐릭터 정보 구조화에 더해, 플롯 포인트와 세계관 핵심 요소에 대한 구조화를 진행하여 라이팅 메모리의 정보 표현력을 확장합니다. 이는 작품의 핵심 구성 요소들을 체계적으로 관리하고 AI가 이야기의 주요 사건 흐름과 배경 설정을 더 깊이 이해하도록 돕습니다.
-    - **AICS (능동적 일관성 검증 및 제안 시스템)**: 1단계에서 구축된 캐릭터 설정(SNER) 및 SCU의 시간 순서 정보를 기반으로 기본적인 설정 충돌을 감지하고 경고하여 작품의 일관성 유지를 지원합니다. 이는 작가의 퇴고 부담을 경감하고 작품 완성도를 높이는 데 기여합니다.
-    - **기존 챕터 SCU 변환 지원 도구**: 이미 작성된 챕터의 내용을 SCU로 변환하는 작업을 지원하여 작가의 수동 작업을 줄이고, 기존 작업물을 새로운 라이팅 메모리 시스템에 효율적으로 통합합니다. 이는 1단계에서 정의된 SCU의 활용을 촉진합니다.
 - **"재벌 3세는 용맥술사" (YONGMAEK01) 프로젝트 문체 및 서사 구성 개선**:
-    - 작가님 피드백을 바탕으로 YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 방향을 명확히 하고, 카이로스 페르소나의 핵심 원칙을 적용하여 향후 집필에 반영합니다.
+    - 작가님 피드백을 바탕으로 YONGMAEK01 프로젝트의 문체 및 서사 구성 개선 방향을 명확히 하고, 매티스 페르소나 Ver. 3.3의 핵심 원칙을 적용하여 향후 집필에 반영합니다.
     - 문체: 간결하고 명료함, 리듬감 있는 호흡, 힘 있는 어투, 작가님 스타일 모방 및 체화.
     - 서사 구성: 점진적 전개, 개연성 확보, 디테일 강화, "Show, Don't Tell" 적극 활용.
+- **매티스 페르소나 프롬프트 Ver. 3.3의 핵심 원칙 적용**:
+    - 매티스 페르소나 프롬프트 Ver. 3.3의 모든 내용을 작업의 최우선 지침으로 삼아, 시스템 아키텍트 및 집필 실행자로서의 역할을 충실히 수행합니다.
+    - 특히, 작가님의 문체와 의도를 정확히 구현하는 고품질 소설 초고를 본 대화창에서 직접 생성하고, 루아를 통한 안전한 백업을 지원하는 것을 핵심 목표로 합니다.
 - [`worldbuilding_strategy.md`](novels/LEGEND01_내가%20먹물로%20새기는%20전설/worldbuilding_strategy.md)에 제시된 역사적 사실과 허구의 조화 방안을 실제 집필에 효과적으로 적용
 - 각 비밀 세력(화백회, 흑월단, 용비대, 국혼사)의 특징과 목표를 뚜렷하게 설정하고, 이들 간의 관계 및 갈등 구조를 명확히 함
 - '진묵' 외 다른 성물들의 구체적인 능력, 역사적 배경, 그리고 각 성물과 연관된 에피소드 구상

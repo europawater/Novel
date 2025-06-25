@@ -19,7 +19,7 @@ Status: 기획 완료
 ## 2. 시스템 연동 필드 (추후 확장 예정)
 
 *   **system_integration_fields**:
-    *   `last_updated_by_kairos`: (날짜/시간)
-    *   `current_chapter_id`: (현재 집필 중인 챕터 ID)
+    *   `last_updated_by_kairos`: 2025-06-25 02:05:00 (Asia/Seoul)
+    *   `current_chapter_id`: STRATEGIST01_chapter_008
     *   `active_writer_persona`: (현재 활성화된 작가 페르소나)
     *   `active_editor_persona`: (현재 활성화된 편집자 페르소나)
